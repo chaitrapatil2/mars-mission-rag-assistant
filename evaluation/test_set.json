@@ -6,8 +6,8 @@
   {"id": 5, "question": "What are the main health risks from space radiation?", "ground_truth": "Cancer, cardiovascular disease, neurocognitive effects and immune dysfunction.", "topic": "radiation", "answerable": true},
   {"id": 6, "question": "What are solar particle events and galactic cosmic radiation?", "ground_truth": "The two main sources of space radiation for astronauts.", "topic": "radiation", "answerable": true},
   {"id": 7, "question": "Why is ascent propellant a challenge for the return trip from Mars?", "ground_truth": "Large amounts are needed and must be hauled or made on Mars using ISRU.", "topic": "mission_planning", "answerable": true},
-  {"id": 8, "question": "What is a Mars portable life support system?", "ground_truth": "TO BE FILLED", "topic": "life_support", "answerable": true},
-  {"id": 9, "question": "What is a Mars transit habitat?", "ground_truth": "TO BE FILLED", "topic": "spacecraft_design", "answerable": true},
+  {"id": 8, "question": "What is a Mars portable life support system?", "ground_truth": "The backpack part of a spacesuit that supplies oxygen, removes carbon dioxide and manages heat and humidity so astronauts can work outside on Mars.", "topic": "life_support", "answerable": true},
+  {"id": 9, "question": "What is a Mars transit habitat?", "ground_truth": "NASA’s Transit Habitat (TH) is designed to support astronauts during long-duration missions to Mars and will first be tested in lunar orbit to demonstrate essential spaceflight technologies.", "topic": "spacecraft_design", "answerable": true},
   {"id": 10, "question": "Who won the 2022 FIFA World Cup?", "ground_truth": "", "topic": "none", "answerable": false},
   {"id": 11, "question": "What is the weather on Mars today?", "ground_truth": "", "topic": "none", "answerable": false},
   {"id": 12, "question": "What is the recipe for chocolate cake?", "ground_truth": "", "topic": "none", "answerable": false}
