@@ -42,3 +42,15 @@ Cause: retrieval returned intro pages of DRA 5.0 and SAC21, not the pages with t
 
 Fix planned: hybrid retrieval and reranking (Step 9).
 
+
+
+\## Baseline scores (vector search only, 12 questions)
+
+\- Decline accuracy: 3/3
+
+\- False declines: 1/9 (Q1)
+
+\- Answers with citations: 8/8
+
+\- Average latency: 4.26 s
+
