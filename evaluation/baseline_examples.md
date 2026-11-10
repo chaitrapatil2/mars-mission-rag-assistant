@@ -30,3 +30,15 @@ Q: Who won the 2022 FIFA World Cup?
 
 A: The reports do not contain enough information to answer this.
 
+
+
+\## Failed (false decline)
+
+Q: How long does a one-way trip to Mars take in the Design Reference Architecture 5.0?
+
+A: The reports do not contain enough information to answer this.
+
+Cause: retrieval returned intro pages of DRA 5.0 and SAC21, not the pages with the trip duration (pages 10 and 23).
+
+Fix planned: hybrid retrieval and reranking (Step 9).
+
