@@ -1,0 +1,60 @@
+{
+  "id": "20230002033",
+  "title": "NASA\u2019s Moon to Mars (M2M) Transit Habitat (TH) Refinement Point of Departure (PoD) Design",
+  "topic": "spacecraft_design",
+  "url": "https://ntrs.nasa.gov/citations/20230002033",
+  "pages": [
+    {
+      "page": 1,
+      "text": "National Aeronautics and Space Administration NASA\u2019s Moon to Mars (M2M) Transit Habitat (TH) Refinement Point of Departure (PoD) Design NASA Marshall Space Flight Center (MSFC) Andrew Choate (Jacobs Space Exploration Group) Paul Kessler Tiffany Nickens Danny Harris NASA Langley Research Center (LaRC) Matthew Simon Presenter (EPH): Andrew Choate Date: March 3, 2023"
+    },
+    {
+      "page": 2,
+      "text": "What is the TH? - GR&A/Functional Allocations - CONOPS & Considerations - Moon to Mars (M2M) Integration Objective"
+    },
+    {
+      "page": 3,
+      "text": "M2M Exploration Element Concepts"
+    },
+    {
+      "page": 4,
+      "text": "5 M2M Integration & CONOPS Phases Launch, Outfitting & Mars Analogs Refurbishment & Return Crewed Mars Transit"
+    },
+    {
+      "page": 5,
+      "text": "Key Mission & Functional Challenges \u2022 No spares resupply chain during transit \u2022 Impact on propulsion element size \u2022 Waste and trash management in transit/loiter orbits \u2022 Logistics storage capacity for mission \u2022 Human health and performance for long duration missions \u2022 Long duration shakedown \u2022 Radiation & MMOD protection \u2022 Communication delays/blackouts \u2022 Ability to recover from major habitation failures 7"
+    },
+    {
+      "page": 6,
+      "text": "2022 NASA Government Reference Transit Habitat Concept Overview"
+    },
+    {
+      "page": 7,
+      "text": "Mars Surface Earth Surface Mars Orbit NRHO HEO DST in loiter orbit during ~30-sol surface mission MDV/MAV docking to DST via TH for crew transfer Gateway+TH+Orion Deep Space Transport2 (DST) Mars Propulsion System1 (MPS) MDV/MAV Pre-deployed Outfitting & Mars Analogs Crewed Mars Transit Refurbishment & Return MEO 1 MPS notionally shown as NEP/Chem. SEP/Chem, NTP, all-Chem also in trade space 2 DST shown as notional MPS/TH configuration Notional CONOPS"
+    },
+    {
+      "page": 8,
+      "text": "Ground Rules & Assumptions Significant GRs: \u2022 4 crew for up to 1,200-day Mars Transit mission duration \u2022 26.4 mt target dry mass (including MGA and margin) \u2022 Autonomous operation when uncrewed \u2022 Max uncrewed dormancy of up to 3 years \u2022 Minimum of 2 axial and 1 radial docking ports \u2022 Performs a series of up to ~180d Mars Analog missions while docked at Gateway \u2022 Self-sufficient habitat once fully deployed at orbits up to 1.0 AU, capable of receiving power from Mars propulsion system beyond 1.6 AU \u2022 14.7 psia 21% O2 atmosphere nominal, capable of 10.2 psia 26.5% O2 during Gateway docked open-hatch ops \u2022 Safe Haven and Solar Proton Event (SPE) Shelter \u2022 15-year life with multiple missions of increasing duration \u2022 TH Sparing and Maintenance - Manifested to achieve 99% system availability 10 Significant Assumptions: \u2022 Near-Rectilinear Halo Orbit (NRHO) via Commercial Launch Vehicle(s)(CLV). Options for SLS cargo delivery are possible but should feed cost assessments. \u2022 Early 2030\u2019s launch with Mars mission in late 2030\u2019s \u2022 Replenishable Reaction Control System (RCS) through docking or Gateway interface between mission phases (analogs, Mars Propulsion System (MPS) shakedown, Mars transit) \u2022 Contingency EVA airlock \u2022 Trash/waste removal (11.6 kg/day avg) \u2022 Accommodate 1000 kg of science and utilization payloads M2M Habitation Considerations Technical Memo.pdf"
+    },
+    {
+      "page": 9,
+      "text": "TH Concept OML Features Deployable radiators: 2x4m panels (7) Deployable solar arrays: 2.76m x 17.83m ROSA (2) Three partitioned levels Axial docking hatches Radial EVA docking port & Trash A/L Integrated Windows External Robotic Arm Radial Docking Hatch Internal hatch RCS Thrusters Comm. Antennas TH Overall Pressurized Volume: ~400 m3 Inflatable: ~365 m3, Metallic: ~35 m3"
+    },
+    {
+      "page": 10,
+      "text": "Level 3 \u2013 Exercise, Utilization, UWMS (2 of 2), Hygiene Station Level 1 \u2013 Galley, Command & Control, Medical, Hand Washing Station, UWMS (1 of 2), Logistics Management, Trash Management Level 2 \u2013 Crew Quarters, Sub- Systems, Maintenance Stations Floor Heights Storage \u2013 CTBs lining the outer wall, additional storage below Level 1 2.5m 2.65m 2.55m 0.8m TH Concept Interior Features"
+    },
+    {
+      "page": 11,
+      "text": "21 Note: Mass margin & PMR approach defined in HEO-MD-1010, but not included within this publication. TH Concept: Mass Summary SBS ID Functional Category Qty Basic Mass kg MGA / Reserves % Predicted Mass kg 1.0 BODY STRUCTURES 6 4,057 20% 4,860 2.0 CONNECTION & SEPARATION SYSTEMS 3 1,163 4% 1,210 3.0 LAUNCH/TAKEOFF & LANDING SUPPORT SYSTEMS 1 260 25% 325 4.0 NATURAL & INDUCED ENVIRON PROTECT SYSTEMS 2 1,869 18% 2,206 5.0 PROPULSION SYSTEMS 0 0 0.00 0 6.0 POWER SYSTEMS 33 1,710 23% 2,100 7.0 COMMAND & DATA HANDLING (C&DH) SYSTEMS 51 829 11% 920 8.0 GUIDANCE, NAVIGATION & CONTROL (GN&C) SYSTEMS 1,013 691 14% 789 9.0 COMMUNICATIONS & TRACKING (C&T) SYSTEMS 143 492 7% 526 10.0 CREW DISPLAYS & CONTROLS 48 160 8% 173 11.0 THERMAL CONTROL SYSTEMS (TCS) 1,060 1,554 17% 1,821 12.0 ENVIRONMENTAL CONTROL SYSTEMS (ECS) 96 1,781 8% 1,919 13.0 CREW/HABITATION SUPPORT SYSTEMS 254 4,902 19% 5,831 14.0 EXTRAVEHICULAR ACTIVITY (EVA) SUPPORT SYSTEMS 78 824 13% 932 15.0 IN-SITU RESOURCE & CONSUMABLES PRODUCTION SYSTEMS 0 0 0.00 0 16.0 IN-SPACE MANUFACTURING & ASSEMBLY SYSTEMS 0 0 0.00 0 17.0 MANIPULATION & MAINTENANCE SYSTEMS 22 709 25% 889 18.0 PAYLOAD PROVISIONS 0 0 0.00 0 MANUFACTURER'S EMPTY MASS 2,810 21,002 16.65% 24,498.71 CREW ITEMS/CONSUMABLES & PORTABLE EQUIP 72 10,994 1% 11,100 EQUIPMENT SPARES & MAINTENANCE ITEMS 3 7,397 0% 7,397 ATMOSPHERE & SYSTEM CONSUMABLES/RESIDUALS 9 334 0% 334 OPERATIONAL EMPTY MASS 2,894 39,726 9% 43,330 19.0 PAYLOADS & RESEARCH 5 1,328 0 1,328 PROPULSION & REACTION CONTROL EXPENDABLES 0 1,562 0 1,562 GROSS MASS 2,899 42,616 8% 46,220 Key mass drivers: \u2022 Mission duration \u2022 Spares philosophy \u2022 Planned maintenance \u2022 Crew size (currently 4) \u2022 Technology selection (Power storage, Regen ECLSS, etc.) \u2022 Reliability and maintainability criteria \u2022 Risk posture \u2022 MGA and margin requirements (only MGA shown) Control mass target: 26,400 kg Departure mass currently ~50 tons!"
+    },
+    {
+      "page": 12,
+      "text": "Future Work Continued concept refinement alongside M2M architecture \u2022 Further CONOPS definition within each operational phase \u2022 Phase 1: TH in cis-lunar NRHO with Gateway and MPS integration \u2022 Phase 2: Crewed Transit Time and Mars Surface Mission support \u2022 Phase 3: Refurbishment activities for subsequent crewed Mars missions \u2022 Interior outfitting optimization activities \u2022 Stowed and frozen food management \u2022 Crew health and performance optimization (exercise/countermeasure systems) \u2022 Mass refinement and logistics loading plans Continued focus on technology development and maturation activities \u2022 Deep dive provided in 2023 IEEE Paper \u201cAn Analysis of Exploration Capability Gaps for Future Habitation Systems to Inform Risk Assessment and Development Priorities\u201d (T. Prater et al.) Continued public/industry engagement and cross-agency integration 22"
+    },
+    {
+      "page": 13,
+      "text": "Authors & Contributors Andrew Choate Transit Habitat Technical Lead Tiffany Nickens Habitation Concepts/Pre- Formulation Deputy Lead Danny Harris Habitation Concepts/Pre- Formulation Lead Paul Kessler Surface Habitat Technical Lead Matthew Simon Deputy Lead, Capability Integration Group NASA Marshall Space Flight Center \u2013 Habitation Systems Development Office NASA Langley Research Center Special Thanks! James Meehan, James Owens, Quincy Bean, Greg Schunk, Brian Evans, David Howard, Robert Howard, Callie Burke, Zachary Bryant, Allison Quesenbery, and Tracie Prater."
+    }
+  ]
+}
