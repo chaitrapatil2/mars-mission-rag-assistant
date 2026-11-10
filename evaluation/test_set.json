@@ -1,0 +1,14 @@
+[
+  {"id": 1, "question": "How long does a one-way trip to Mars take in the Design Reference Architecture 5.0?", "ground_truth": "About 180 to 210 days.", "topic": "mission_planning", "answerable": true},
+  {"id": 2, "question": "How long is the two-way communication delay between Earth and Mars?", "ground_truth": "Between about 6 and 44.5 minutes.", "topic": "mission_planning", "answerable": true},
+  {"id": 3, "question": "How often can logistics be delivered to Mars?", "ground_truth": "Roughly every 26 months.", "topic": "mission_planning", "answerable": true},
+  {"id": 4, "question": "What is NASA's career radiation limit for astronauts?", "ground_truth": "600 mSv.", "topic": "radiation", "answerable": true},
+  {"id": 5, "question": "What are the main health risks from space radiation?", "ground_truth": "Cancer, cardiovascular disease, neurocognitive effects and immune dysfunction.", "topic": "radiation", "answerable": true},
+  {"id": 6, "question": "What are solar particle events and galactic cosmic radiation?", "ground_truth": "The two main sources of space radiation for astronauts.", "topic": "radiation", "answerable": true},
+  {"id": 7, "question": "Why is ascent propellant a challenge for the return trip from Mars?", "ground_truth": "Large amounts are needed and must be hauled or made on Mars using ISRU.", "topic": "mission_planning", "answerable": true},
+  {"id": 8, "question": "What is a Mars portable life support system?", "ground_truth": "TO BE FILLED", "topic": "life_support", "answerable": true},
+  {"id": 9, "question": "What is a Mars transit habitat?", "ground_truth": "TO BE FILLED", "topic": "spacecraft_design", "answerable": true},
+  {"id": 10, "question": "Who won the 2022 FIFA World Cup?", "ground_truth": "", "topic": "none", "answerable": false},
+  {"id": 11, "question": "What is the weather on Mars today?", "ground_truth": "", "topic": "none", "answerable": false},
+  {"id": 12, "question": "What is the recipe for chocolate cake?", "ground_truth": "", "topic": "none", "answerable": false}
+]
