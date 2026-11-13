@@ -1,14 +1,195 @@
 [
-  {"id": 1, "question": "How long does a one-way trip to Mars take in the Design Reference Architecture 5.0?", "ground_truth": "About 180 to 210 days.", "topic": "mission_planning", "answerable": true},
-  {"id": 2, "question": "How long is the two-way communication delay between Earth and Mars?", "ground_truth": "Between about 6 and 44.5 minutes.", "topic": "mission_planning", "answerable": true},
-  {"id": 3, "question": "How often can logistics be delivered to Mars?", "ground_truth": "Roughly every 26 months.", "topic": "mission_planning", "answerable": true},
-  {"id": 4, "question": "What is NASA's career radiation limit for astronauts?", "ground_truth": "600 mSv.", "topic": "radiation", "answerable": true},
-  {"id": 5, "question": "What are the main health risks from space radiation?", "ground_truth": "Cancer, cardiovascular disease, neurocognitive effects and immune dysfunction.", "topic": "radiation", "answerable": true},
-  {"id": 6, "question": "What are solar particle events and galactic cosmic radiation?", "ground_truth": "The two main sources of space radiation for astronauts.", "topic": "radiation", "answerable": true},
-  {"id": 7, "question": "Why is ascent propellant a challenge for the return trip from Mars?", "ground_truth": "Large amounts are needed and must be hauled or made on Mars using ISRU.", "topic": "mission_planning", "answerable": true},
-  {"id": 8, "question": "What is a Mars portable life support system?", "ground_truth": "The backpack part of a spacesuit that supplies oxygen, removes carbon dioxide and manages heat and humidity so astronauts can work outside on Mars.", "topic": "life_support", "answerable": true},
-  {"id": 9, "question": "What is a Mars transit habitat?", "ground_truth": "NASA’s Transit Habitat (TH) is designed to support astronauts during long-duration missions to Mars and will first be tested in lunar orbit to demonstrate essential spaceflight technologies.", "topic": "spacecraft_design", "answerable": true},
-  {"id": 10, "question": "Who won the 2022 FIFA World Cup?", "ground_truth": "", "topic": "none", "answerable": false},
-  {"id": 11, "question": "What is the weather on Mars today?", "ground_truth": "", "topic": "none", "answerable": false},
-  {"id": 12, "question": "What is the recipe for chocolate cake?", "ground_truth": "", "topic": "none", "answerable": false}
+  {
+    "id": 1,
+    "question": "How long does a one-way trip to Mars take in the Design Reference Architecture 5.0?",
+    "ground_truth": "About 180 to 210 days.",
+    "topic": "mission_planning",
+    "answerable": true
+  },
+  {
+    "id": 2,
+    "question": "How long is the two-way communication delay between Earth and Mars?",
+    "ground_truth": "Between about 6 and 44.5 minutes.",
+    "topic": "mission_planning",
+    "answerable": true
+  },
+  {
+    "id": 3,
+    "question": "How often can logistics be delivered to Mars?",
+    "ground_truth": "Roughly every 26 months.",
+    "topic": "mission_planning",
+    "answerable": true
+  },
+  {
+    "id": 4,
+    "question": "What is NASA's career radiation limit for astronauts?",
+    "ground_truth": "600 mSv.",
+    "topic": "radiation",
+    "answerable": true
+  },
+  {
+    "id": 5,
+    "question": "What are the main health risks from space radiation?",
+    "ground_truth": "Cancer, cardiovascular disease, neurocognitive effects and immune dysfunction.",
+    "topic": "radiation",
+    "answerable": true
+  },
+  {
+    "id": 6,
+    "question": "What are solar particle events and galactic cosmic radiation?",
+    "ground_truth": "The two main sources of space radiation for astronauts.",
+    "topic": "radiation",
+    "answerable": true
+  },
+  {
+    "id": 7,
+    "question": "Why is ascent propellant a challenge for the return trip from Mars?",
+    "ground_truth": "Large amounts are needed and must be hauled or made on Mars using ISRU.",
+    "topic": "mission_planning",
+    "answerable": true
+  },
+  {
+    "id": 8,
+    "question": "What is a Mars portable life support system?",
+    "ground_truth": "The backpack part of a spacesuit that supplies oxygen, removes carbon dioxide and manages heat and humidity so astronauts can work outside on Mars.",
+    "topic": "life_support",
+    "answerable": true
+  },
+  {
+    "id": 9,
+    "question": "What is a Mars transit habitat?",
+    "ground_truth": "NASA\u2019s Transit Habitat (TH) is designed to support astronauts during long-duration missions to Mars and will first be tested in lunar orbit to demonstrate essential spaceflight technologies.",
+    "topic": "spacecraft_design",
+    "answerable": true
+  },
+  {
+    "id": 10,
+    "question": "Who won the 2022 FIFA World Cup?",
+    "ground_truth": "",
+    "topic": "none",
+    "answerable": false
+  },
+  {
+    "id": 11,
+    "question": "What is the weather on Mars today?",
+    "ground_truth": "",
+    "topic": "none",
+    "answerable": false
+  },
+  {
+    "id": 12,
+    "question": "What is the recipe for chocolate cake?",
+    "ground_truth": "",
+    "topic": "none",
+    "answerable": false
+  },
+  {
+    "id": 13,
+    "question": "What is the estimated range of total mission radiation exposures for current Design Reference Missions?",
+    "ground_truth": "Total mission exposures are projected to fall within the range of 1,000 to 1,200 mSv. This is roughly twice NASA's 600 mSv career exposure limit.",
+    "topic": "radiation",
+    "answerable": true,
+    "source_report_id": "20250006168",
+    "source_page": 4
+  },
+  {
+    "id": 15,
+    "question": "What administrative dose limit is set for the rover design requirement to protect against a large 1972-type event during lunar missions?",
+    "ground_truth": "The administrative dose limit is set at 150 mSv for the rover design requirement to protect against a large 1972-type event.",
+    "topic": "radiation",
+    "answerable": true,
+    "source_report_id": "20090009772",
+    "source_page": 7
+  },
+  {
+    "id": 17,
+    "question": "How deep below the surface of Mars could sophisticated drilling equipment be operated by human explorers?",
+    "ground_truth": "Human explorers could operate sophisticated drilling equipment capable of reaching a depth of 500 to 1,000 meters below the surface.",
+    "topic": "mission_planning",
+    "answerable": true,
+    "source_report_id": "20090040343",
+    "source_page": 3
+  },
+  {
+    "id": 19,
+    "question": "Why did the architecture require splitting the MAV propellant load across two landers?",
+    "ground_truth": "The architecture required splitting the MAV propellant load across two landers because ISRU was ground-ruled out, and this split kept each landed payload within a 25 t capacity to mitigate entry, descent, and landing risks.",
+    "topic": "mission_planning",
+    "answerable": true,
+    "source_report_id": "20210026448",
+    "source_page": 5
+  },
+  {
+    "id": 21,
+    "question": "How long does a trip to Mars take?",
+    "ground_truth": "The trip to Mars requires about six months. This long travel time necessitates highly reliable, maintainable, and reparable life support systems.",
+    "topic": "life_support",
+    "answerable": true,
+    "source_report_id": "20140011164",
+    "source_page": 12
+  },
+  {
+    "id": 22,
+    "question": "Why is a separate platform needed for ECLSS maturation instead of relying solely on the ISS?",
+    "ground_truth": "The ISS operates in low-Earth orbit where it is protected from deep space radiation by the Earth's magnetic field and maintains a sea-level equivalent atmosphere. A separate platform is needed to expose the systems to deep space radiation and exploration atmospheres.",
+    "topic": "life_support",
+    "answerable": true,
+    "source_report_id": "20140011164",
+    "source_page": 11
+  },
+  {
+    "id": 23,
+    "question": "How much higher is the launch and emplacement cost for life support hardware, materials, and spares in deep space compared to LEO?",
+    "ground_truth": "The launch and emplacement cost for life support hardware, materials, and spares is about ten times higher in deep space than in LEO.",
+    "topic": "life_support",
+    "answerable": true,
+    "source_report_id": "20140011164",
+    "source_page": 12
+  },
+  {
+    "id": 25,
+    "question": "How many crew members do surface habitats for Mars missions typically support?",
+    "ground_truth": "Surface habitats for Mars missions typically provide support for a crew of four. This crew is supported over a period of 300 to 500 days.",
+    "topic": "spacecraft_design",
+    "answerable": true,
+    "source_report_id": "20200002332",
+    "source_page": 5
+  },
+  {
+    "id": 27,
+    "question": "How many crew members is the baseline mission for all configurations designed to support?",
+    "ground_truth": "The baseline mission for all configurations is designed to support four crew members for 1,200 days.",
+    "topic": "spacecraft_design",
+    "answerable": true,
+    "source_report_id": "20200002332",
+    "source_page": 6
+  },
+  {
+    "id": 29,
+    "question": "Who was the first person to walk on Mars?",
+    "ground_truth": "",
+    "topic": "none",
+    "answerable": false
+  },
+  {
+    "id": 30,
+    "question": "How much does a SpaceX Starship launch cost?",
+    "ground_truth": "",
+    "topic": "none",
+    "answerable": false
+  },
+  {
+    "id": 31,
+    "question": "What is the capital of France?",
+    "ground_truth": "",
+    "topic": "none",
+    "answerable": false
+  },
+  {
+    "id": 32,
+    "question": "How do I treat a common cold at home?",
+    "ground_truth": "",
+    "topic": "none",
+    "answerable": false
+  }
 ]

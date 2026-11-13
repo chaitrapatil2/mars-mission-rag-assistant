@@ -72,3 +72,19 @@ Fix planned: hybrid retrieval and reranking (Step 9).
 
 Answer cited a life-support report for "about 180 days". The cited chunk states a one-way travel time of 180-300 days, so the citation is valid, but the answer simplified the range.
 
+
+
+\## Final results on 25 questions (7 off-topic)
+
+\- Decline accuracy: 7/7 -> 7/7
+
+\- False declines: 1/18 (Q1) -> 0/18
+
+\- Citations present: 17/17 -> 18/18
+
+\- Average latency: 2.15 s -> 14.93 s (reranker runs on CPU)
+
+Note: Q24 was removed before final scoring because "Schematic 1" is ambiguous without its source passage. The retrieved chunks were from the correct report, so it was a bad question, not a retrieval failure.
+
+Test set: 12 hand-written questions plus 13 LLM-generated from report passages and manually filtered.
+
