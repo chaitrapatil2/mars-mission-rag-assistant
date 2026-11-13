@@ -1,0 +1,937 @@
+[
+  {
+    "id": 1,
+    "question": "How long does a one-way trip to Mars take in the Design Reference Architecture 5.0?",
+    "ground_truth": "About 180 to 210 days.",
+    "answerable": true,
+    "answer": "In Design Reference Architecture 5.0, the length of the outbound transfer to Mars ranges from 175 to 225 days [3], or approximately 180 days [1, 7].",
+    "declined": false,
+    "contexts": [
+      "to Mars [15]. A large driver for Mars suit design is the use of a conjunction or opposition trajectory. Conjunction requires a longer mission duration but uses less fuel and energy and allows for more time in Mars orbit (300-500 days). Opposition requires a shorter overall mission duration but expends more energy to get to Mars and only allows orbiting around Mars for a short time (10-50 days). Both trajectories have a travel time of 180-300 days one-way [15].",
+      "reference architecture focused on what is known as a conjunction class or long-stay mission, characterized by relatively fast transit to Mars when the planets\u2019 relative positions allow a minimum energy transit, followed by a very long loiter period at Mars waiting for an optimum trajectory that enables a fast return transit. Design Reference Architecture 5.0 [4] opted to spend a 500+ day loiter period on the surface of Mars, which offered substantial exploration time, but at the expense of substantial surface infrastructure. Surface systems included a large habitat, 40 kiloWatts of electric power (kWe), ISRU, and multiple surface mobility systems. The overall mission duration kept crew away from Earth for more than three Earth years and required at least 80 metric tons (t) of useful landed mass at Mars. More recently, NASA was challenged to explore a different corner of the trade space, focusing instead on minimizing crew time away from Earth and emphasizing a lighter surface exploration footprint. Using what is known as an opposition class or short-stay mission mode, crew would minimize loiter time at Mars before their return departure window closes. At least one leg of the journey (either in- or out-bound) requires significantly more energy than",
+      "5 for significant periods of time without humans present. In fact, the successful completion of these various activities would be part of the decision criteria for launch of the first crew from Earth. The second phase of this architecture begins during the next injection opportunity with the launch, assembly, and checkout of the crew Mars transfer vehicle. The transfer vehicle would serve as the interplanetary support vehicle for the crew for a round-trip mission to Mars orbit and back to Earth. Prior to departure of the flight crew, a separate checkout crew might be delivered to the vehicle to perform vital systems verification and any necessary repairs prior to departure of the flight crew. After all vehicles and systems, including the Mars ascent vehicle (on the surface of Mars), surface habitat (in Mars orbit), and the transfer vehicle (in Earth orbit) are verified operational, the flight crew would be injected on the appropriate fast-transit trajectory toward Mars. The length of this outbound transfer to Mars would be dependent on the mission date and would range from 175 to 225 days. Upon arrival at Mars, the crew members would perform a rendezvous with the surface habitat, which would serve as their",
+      "be misleading because they don\u2019t adequately communicate that Earth and Mars race around the Sun at different speeds, the distance between them constantly changing. Minimum distance between the two planets varies over an approximately 15 to 16-year synodic cycle, with optimum alignments occurring about every 26 months. In general, the distance traveled to Mars will be different than the return distance back to Earth, because Earth won\u2019t be where we left it. A round trip from Earth to Mars is estimated to put 1.8 to 2 billion kilometers on our spaceship\u2019s odometer, as compared to less than a million kilometers round-trip from Earth to the Moon. The trajectory we take, the year and month we leave Earth, what type of propulsion system we use, and how long we linger at Mars will all set overall mission duration, but the reality is that round-trip Mars missions are expected to be two to three years long. This brings us to our second challenge: we have no human performance data for such long periods away from Earth. Fortunately, we are well-positioned to meet this challenge, by using Earth-based analogs [2] and the International Space Station (ISS) to study the effects of closed environments,",
+      "launches, and features a hybrid Nuclear Electric Propulsion (NEP)/Chemical transportation system able to complete the 1.8 billion kilometer round-trip journey to Mars and back in 760 to 850 days transit time for the 2039 Earth departure opportunity. Three Mars Descent Systems (MDS), each capable of landing about 25 metric tons of useful cargo on the surface of Mars, would be pre-deployed in advance of crew departure from Earth; two of these MDS\u2019s would deliver a partially fueled Mars Ascent Vehicle (MAV), a fission power system, surface mobility, and additional MAV propellant. To minimize surface infrastructure, only two of the four Mars crew would descend and live in an MDS-landed pressurized rover, exploring the martian surface for 30 martian days, or sols, before returning to Mars orbit aboard their MAV and rejoining the other two crew on the Deep Space Transport for the Earth return voyage. Specifics of many of these architecture elements are detailed in separate technical publications; this paper outlines the end-to-end integrated architecture performance and concept of operations, including synergies with Artemis lunar architecture elements. It is important to note that NASA does not have a formal human Mars program and no decisions have been made; the architecture",
+      "to 1200 days. The EHC used the BOC transit habitat as its starting point and was refined based on a Net Habitable Volume study [2] conducted by the Mars Architecture Team. The process used is summarized as follows: \u2022 Classification of Crew Functional Tasks \u2022 Organization of Functional Categories \u2022 Estimation of Volumetric Requirements \u2022 Identification of Functional Overlaps \u2022 Identification of Cross-Category Overlaps \u2022 Adjustment of BOC Design to Accommodate Functional Spaces The Net Habitable Volumes in the EHC are depicted in Figure 1. The allocation of volumes between NHV, systems, storage volumes, and voids is tabulated in Table 1. Table 1. EHC Volume Allocations Figure 1. EHC Net Habitable Volumes The BOC is no longer the current NASA reference architecture for human Mars missions. Some of the most relevant changes for the Transit Habitat are briefly mentioned here. The total flight time is reduced to approximately 760 to 850 days. Additionally, only two crew will descend to the surface of Mars for a roughly 30-day surface mission while the other two remain in orbit aboard the Transit Habitat. While the current Mars architecture has changed since the BOC, this evaluation still provides useful guidance. The Earth to Mars",
+      "6 1 Crew: ~180 days back to Earth 13 10 ~500 days on Mars Crew: Jettison drop tank after trans-Mars injection ~180 days out to Mars 8 Cargo: ~350 days to Mars 2 4 Ares-V Cargo Launches 1 Cargo Vehicles Crew: Ascent to high Mars orbit 11 4 Aerocapture / Entry, Descent & Land Ascent Vehicle 3 Aerocapture Habitat Lander into Mars Orbit 5 In-Situ propellant production for Ascent Vehicle ~26 months 6 3 Ares-V Cargo Launches Crew Transfer Vehicle Ares-I Crew Launch 7 9 Crew: Use Orion to transfer to Habitat Lander; then EDL on Mars Crew: Prepare for Trans- Earth Injection 12 ~30 months Orion direct Earth return 14 Figure 1 - Mars Design Reference Architecture 5.0 Mission Profile Exploring the Surface Candidate surface sites would be chosen based on the best possible data available at the time of the selection, the operational difficulties associated with that site, and the collective merit of the science and exploration questions that could be addressed at the site. Information available for site selection would include remotely gathered data sets plus data from any landed mission(s) in the vicinity plus interpretive analyses based on these data. Several different surface architectures were assessed",
+      "approximately 17-month return transit makes this an 850-day roundtrip mission, though additional time built into the schedule to stage and transfer crew at the front and back end of the 2039 mission makes the maximum crew time off Earth as much as 960 days. When the Deep Space Transport arrives back in a High Earth Orbit, an Orion would retrieve all four crew for return to Earth. The Mars transit vehicle could then return to Gateway for refurbishment and resupply in preparation for either continued lunar support or subsequent Mars missions. Meanwhile, back on Mars, robotic science would continue, aided by the surface assets left behind, which would include a fission power system that is impervious to the kinds of disruptions that martian dust storms might cause to solar-powered science platforms, high data rate communications, and a robotically controllable PR. 6. CONCLUSIONS AND PLANNED WORK The architecture outlined in this paper was intended to fill in an often-overlooked corner of the architecture trade space. As expected, transporting crew to Mars and back again on an accelerated timeline requires more energy than traditional approaches, which in turn translates to significant transportation system mass. Although the total crew time away from Earth"
+    ],
+    "retrieved": [
+      {
+        "title": "Mars Portable Life Support System Status and Plan",
+        "page": 4,
+        "report_id": "20260003024"
+      },
+      {
+        "title": "NASA\u2019s Strategic Analysis Cycle 2021 (SAC21) Human Mars Architecture",
+        "page": 2,
+        "report_id": "20210026448"
+      },
+      {
+        "title": "Human Exploration of Mars Design Reference Architecture 5.0",
+        "page": 5,
+        "report_id": "20100028285"
+      },
+      {
+        "title": "NASA\u2019s Strategic Analysis Cycle 2021 (SAC21) Human Mars Architecture",
+        "page": 2,
+        "report_id": "20210026448"
+      },
+      {
+        "title": "NASA\u2019s Strategic Analysis Cycle 2021 (SAC21) Human Mars Architecture",
+        "page": 1,
+        "report_id": "20210026448"
+      },
+      {
+        "title": "Functional Volume Assessment of an Early Version of the Mars Transit Habitat",
+        "page": 2,
+        "report_id": "20210022012"
+      },
+      {
+        "title": "Human Exploration of Mars Design Reference Architecture 5.0",
+        "page": 6,
+        "report_id": "20100028285"
+      },
+      {
+        "title": "NASA\u2019s Strategic Analysis Cycle 2021 (SAC21) Human Mars Architecture",
+        "page": 7,
+        "report_id": "20210026448"
+      }
+    ],
+    "cited": [
+      {
+        "title": "Mars Portable Life Support System Status and Plan",
+        "page": 4,
+        "report_id": "20260003024"
+      },
+      {
+        "title": "Human Exploration of Mars Design Reference Architecture 5.0",
+        "page": 5,
+        "report_id": "20100028285"
+      },
+      {
+        "title": "Human Exploration of Mars Design Reference Architecture 5.0",
+        "page": 6,
+        "report_id": "20100028285"
+      }
+    ],
+    "latency_seconds": 12.08,
+    "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "id": 2,
+    "question": "How long is the two-way communication delay between Earth and Mars?",
+    "ground_truth": "Between about 6 and 44.5 minutes.",
+    "answerable": true,
+    "answer": "The two-way communication time between Earth and Mars is 6.3 to 44.5 minutes [3], or approximately 6 to 44 minutes [4, 5].",
+    "declined": false,
+    "contexts": [
+      "to Mars [15]. A large driver for Mars suit design is the use of a conjunction or opposition trajectory. Conjunction requires a longer mission duration but uses less fuel and energy and allows for more time in Mars orbit (300-500 days). Opposition requires a shorter overall mission duration but expends more energy to get to Mars and only allows orbiting around Mars for a short time (10-50 days). Both trajectories have a travel time of 180-300 days one-way [15].",
+      "be misleading because they don\u2019t adequately communicate that Earth and Mars race around the Sun at different speeds, the distance between them constantly changing. Minimum distance between the two planets varies over an approximately 15 to 16-year synodic cycle, with optimum alignments occurring about every 26 months. In general, the distance traveled to Mars will be different than the return distance back to Earth, because Earth won\u2019t be where we left it. A round trip from Earth to Mars is estimated to put 1.8 to 2 billion kilometers on our spaceship\u2019s odometer, as compared to less than a million kilometers round-trip from Earth to the Moon. The trajectory we take, the year and month we leave Earth, what type of propulsion system we use, and how long we linger at Mars will all set overall mission duration, but the reality is that round-trip Mars missions are expected to be two to three years long. This brings us to our second challenge: we have no human performance data for such long periods away from Earth. Fortunately, we are well-positioned to meet this challenge, by using Earth-based analogs [2] and the International Space Station (ISS) to study the effects of closed environments,",
+      "Table 1 Comparison of Lunar and Mars Mission Challenges Distance from Earth Moon 384,000 km Mars 58,000,000 \u2013 400,000,000 km Two-Way Communication Time 2.6 seconds 6.3 \u2013 44.5 minutes One-way Trip Time 4 days 180-210 days Stay Time 7 days (sortie mission) 495 \u2013 540 days Total Mission Duration 18 days (sortie mission) 895 \u2013 950 days Aborts Anytime return Limited to early in the mission or multi-year Logistics Delivery Daily Every 26 months Total Mission Mass (Note: ISS ~ 400 t) ~200 t ~800 \u2013 1,200 t Total Delta-V (LEO to surface and back) 9.5 km/s 12 \u2013 14 km/s solar system bodies into the Earth\u2019s economic sphere, opening the possibility of both bringing resources back to Earth and freeing people to focus on living and working on another planet instead of worrying about getting there (and getting back). Advanced Propulsion Although human expeditions to Mars could be conducted using cryogenic propulsion and aerocapture, nuclear propulsion presents a compelling prospect for tremendously reducing the mass or travel time required. Advanced propulsion concepts including space storable landers (oxygen/methane), nuclear thermal propulsion, and the ability to store and manage cryogenic fluids for long durations are required. Development and demonstration of advanced,",
+      "10 5. KEY CHALLENGES Missions to Mars represent the next plateau in human exploration of space. Just as Mercury, Gemini, and Apollo grew out of the technology and experience base of the aircraft and missile industry, Mars missions would be an outgrowth of our technology and experience base of Apollo, Shuttle, and ISS in combination with other technologies recognized as necessary to reach this plateau. There are significant challenges that must be overcome to successfully complete a potential human Mars exploration mission, but NASA has historically used the creative talents of its workforce to find the ways and means to successfully carry out its assigned missions that more than satisfy the stakeholders; this same workforce would apply this same creativity to the new objectives of returning to the Moon and sending people, for the first time, to Mars. Some of the key challenges facing future explorers to Mars are provided in Table 1 and summarized below. [Insert Table 1 here] Table 1 - Comparison of Lunar and Mars Mission Challenges Moon Mars Distance from Earth 384,000 km 58,000,000 \u2013 400,000,000 km Two-Way Communication Time 2.6 seconds 6 \u2013 44 minutes One-way Trip Time 4 days 180-210 days Stay Time 7",
+      "Table 1 - Comparison of Lunar and Mars Mission Challenges Moon Mars Distance from Earth 384,000 km 58,000,000 \u2013 400,000,000 km Two-Way Communication Time 2.6 seconds 6 \u2013 44 minutes One-way Trip Time 4 days 180-210 days Stay Time 7 days (sortie mission) 495 \u2013 540 days Total Mission Duration 18 days (sortie mission) 895 \u2013 950 days Aborts Anytime return Limited to early in the mission or multi-year Logistics Delivery Daily Every 26 months Total Mission Mass (Note: ISS ~ 400 t) ~200 t ~800 \u2013 1,200 t Total Delta-V (LEO to surface and back) 9.5 km/s 12 \u2013 14 km/s Human Health and Performance As humans extend their reach beyond Earth orbit to the surface of Mars, they would be exposed to the hazardous environment of deep space for lengthy periods; consequently, protective measures must be devised to ensure crew health and maximize mission success. \u2022 Radiation protection from both galactic cosmic radiation as well as solar proton events. The solution might be a combination of uncertainty reduction, shielding, mission design, and crew selection with effective biological countermeasures \u2022 Countermeasures to ameliorate bone mineral loss and muscle atrophy in reduced-gravity environments for both the transits to and from",
+      "2 1. INTRODUCTION Mars continues to be an Agency horizon goal [1] for human exploration of our solar system. An initial human Mars mission might search for signs of extant life (i.e., life that still exists today) or assess options for longer term human sustainability. NASA\u2019s top priority for the crew once they land and validate habitation/exploration/ascent capabilities would be to perform high priority science objectives, established by the science community, using systems approved and provided by NASA\u2019s Science Mission Directorate (SMD). At the architecture level, the objective is to land humans on the surface of Mars and return them safely to Earth. Landing site selection for a first mission will be driven by crew safety, available capabilities, and science priorities. 2. CHALLENGES As compared to Artemis lunar missions, Mars offers three unique challenges for human exploration. The first challenge is the sheer distance. Graphics that depict minimum distance between Earth and Mars or estimates of one-way trip times can be misleading because they don\u2019t adequately communicate that Earth and Mars race around the Sun at different speeds, the distance between them constantly changing. Minimum distance between the two planets varies over an approximately 15 to 16-year synodic cycle, with",
+      "a shift of 60 days is implemented between the end of the Earth spiral and the start of the Earth-to-Mars transfer segment. Per current HAT analysis agreement, a time span of 60 days is su\ufb03cient to allow for proper alignment for achieving an LGA; it also allows for additional time margin for potentially unforeseen scenarios such as missed thrust. C. Earth to Mars Transfer The Earth-to-Mars (E-M) transfer starts at an Earth escape condition de\ufb01ned as having a C3 = +2.0 km2/sec2 and ends at Mars with an incoming Vinf = 5.2 km/sec. The Mars arrival condition is driven by aero-capture requirements at Mars. This mission segment is modeled using the Chebytop III6 program. Chebytop is chosen because of its \ufb02exibility and speed in providing optimized interplanetary trajectories. Chebytop has a medium level of simulation \ufb01delity, as de\ufb01ned by speci\ufb01ed vehicle and mission detail, and is suitable for the study at hand. Prior experience has shown that Chebytop solutions provide excellent seed values for higher level \ufb01delity trajectory programs. Where higher level \ufb01delity trajectory programs allow for more vehicle detail and mission constraints to be speci\ufb01ed, they typically get \u201dtrapped\u201d in local solution spaces; unlike Chebytop, they are simply not",
+      "would be a significant new tool that humans on Mars would bring to surface exploration. There are limitations to the autonomous operations that are possible with current robotic systems, with fundamental limitations to direct commanding from Earth being the time difference imposed by the 6- to 20- minute communications transit time and the small number of daily uplink and downlink communications passes. The scientific exploration of Mars by humans would presumably be performed as a synergistic partnership between humans and robotic probes \u2013 a partnership that is controlled by the human explorers on the surface of Mars [1 1]. Initial Human Exploration of Mars Objectives Related to Goals I-III Geology Scientific Objectives\u2014 Some of the most important questions about Goals I through III involve the relationship of H2O to martian geologic and biologic processes as a function of geologic time. Mars has apparently evolved from a potentially \u201cwarm and wet\u201d period in its early Noachian history to the later \u201ccold and dry\u201d period of the Amazonian period. Since rocks of different age are exposed in different places on Mars, understanding this geologic history requires an exploration program that also involves spatial diversity. One of the realities of geology-related exploration is"
+    ],
+    "retrieved": [
+      {
+        "title": "Mars Portable Life Support System Status and Plan",
+        "page": 4,
+        "report_id": "20260003024"
+      },
+      {
+        "title": "NASA\u2019s Strategic Analysis Cycle 2021 (SAC21) Human Mars Architecture",
+        "page": 2,
+        "report_id": "20210026448"
+      },
+      {
+        "title": "Human Exploration of Mars Design Reference Architecture 5.0",
+        "page": 23,
+        "report_id": "20090040343"
+      },
+      {
+        "title": "Human Exploration of Mars Design Reference Architecture 5.0",
+        "page": 10,
+        "report_id": "20100028285"
+      },
+      {
+        "title": "Human Exploration of Mars Design Reference Architecture 5.0",
+        "page": 10,
+        "report_id": "20100028285"
+      },
+      {
+        "title": "NASA\u2019s Strategic Analysis Cycle 2021 (SAC21) Human Mars Architecture",
+        "page": 2,
+        "report_id": "20210026448"
+      },
+      {
+        "title": "Mission Design Considerations for Mars Cargo of the Human Spaceflight Architecture Team's Evolvable Mars Campaign",
+        "page": 7,
+        "report_id": "20160010261"
+      },
+      {
+        "title": "Human Exploration of Mars Design Reference Architecture 5.0",
+        "page": 3,
+        "report_id": "20090040343"
+      }
+    ],
+    "cited": [
+      {
+        "title": "Human Exploration of Mars Design Reference Architecture 5.0",
+        "page": 23,
+        "report_id": "20090040343"
+      },
+      {
+        "title": "Human Exploration of Mars Design Reference Architecture 5.0",
+        "page": 10,
+        "report_id": "20100028285"
+      },
+      {
+        "title": "Human Exploration of Mars Design Reference Architecture 5.0",
+        "page": 10,
+        "report_id": "20100028285"
+      }
+    ],
+    "latency_seconds": 19.81,
+    "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "id": 3,
+    "question": "How often can logistics be delivered to Mars?",
+    "ground_truth": "Roughly every 26 months.",
+    "answerable": true,
+    "answer": "Logistics can be delivered to Mars every 26 months [5]. Additionally, one-way cargo delivery missions depart during the opportunity preceding each crewed mission, which occur approximately every 2.1 years in a cycle that repeats every 15 years [2].",
+    "declined": false,
+    "contexts": [
+      "days. This length of time is not required for every mission, as indicated in Table 1 where mission durations vary from 1,043 to 1,047 days. The reduction in the number of crew days has a significant impact on mass, making it possible to reduce the total mass to about 45mT, which is thought to be a reasonable limit for the Hybrid SEP propulsion system. More details on how this was accomplished and the alternatives for higher mass configurations are available in the refinement study technical paper. [1] If longer durations and alternate configurations are used as indicated in Fig. 12, then alternate propulsion systems are possible. These include adding kick stages for the initial trans-Mars-injection burn to boost the Hybrid SEP system, or using alternate high thrust from chemical and nuclear thermal propulsion (NTP) systems. Figure 12. Summary of the mass and volume for the Mars Transit Habitat configurations. Table 1. Variation in the Mars Transit Habitat departure mass.",
+      "assess the variability of mission opportunities across the synodic cycle, and not to represent proposed actual mission dates. Mission opportunities occur approximately every 2.1 years in a cycle that repeats every 15 years (the synodic cycle). (The trajectories from one 15-year cycle to the next do not match exactly, but are very similar and sufficient for initial planning purposes. The duration required for a more exact match is 79 years.) Along with the crewed missions, one-way cargo delivery trajectories were also generated that depart during the opportunity preceding each crewed mission. Each cargo mission delivers two vehicles to Mars. 11",
+      "the Bigelow Aerospace configuration resulting in a mass of about 61mT. Like the Bigelow configuration, the mass growth is not considered significant, and the attached logistics module provides for some interesting options. For example, in a typical Mars mission there are about 300 - 500 days of logistics on board the habitat that are no longer needed when the crew returns from the surface of Mars. In this configuration it would be possible to leave this logistics in Mars orbit for future missions using the attached module. Another option is to use the logistics module as a 30-day safe haven for protection of the crew in the event of pressure loss in the inflatable structure. Various options for safe havens have been described in a previous technical paper for Mars Transit Habitats. [4] Figure 5. Sierra Nevada concept for Gateway. [2] Figure 6. NASA Mars Transit Vehicle concept utilizing a Sierra Nevada inflatable habitat module.",
+      "transfer to the DST, the Orion crew capsule returns to Earth. Crew transit to Mars for this particular opportunity and vehicle design would take just under 10 months. Note that duration would vary for other departure opportunities and vehicle performance assumptions. During the outbound transit, nominal crew operations would include routine vehicle system health monitoring, maintenance, and repair, and vehicle course monitoring and corrections. Housekeeping activities will include TH cleaning and periodic trash disposal. Live interface education and public outreach activities will become increasingly difficult as the crew transit farther from Earth and roundtrip communications time lags, but recorded question and answer sessions or lessons will be possible. In deep space, crew would have opportunities for solar system astronomical observations, to conduct research on the effects of the deep space environment on humans and vehicle systems, and to conduct other planned microgravity science research. To maintain fitness for landing, crew would exercise daily, undergo health and performance monitoring and testing, and utilize on-board training systems to maintain proficiency for critical entry, descent, and landing operations. The landing crew would use on-board training systems to virtually practice surface mission transits and science operations in collaboration with scientists and mission controllers on",
+      "Table 1 Comparison of Lunar and Mars Mission Challenges Distance from Earth Moon 384,000 km Mars 58,000,000 \u2013 400,000,000 km Two-Way Communication Time 2.6 seconds 6.3 \u2013 44.5 minutes One-way Trip Time 4 days 180-210 days Stay Time 7 days (sortie mission) 495 \u2013 540 days Total Mission Duration 18 days (sortie mission) 895 \u2013 950 days Aborts Anytime return Limited to early in the mission or multi-year Logistics Delivery Daily Every 26 months Total Mission Mass (Note: ISS ~ 400 t) ~200 t ~800 \u2013 1,200 t Total Delta-V (LEO to surface and back) 9.5 km/s 12 \u2013 14 km/s solar system bodies into the Earth\u2019s economic sphere, opening the possibility of both bringing resources back to Earth and freeing people to focus on living and working on another planet instead of worrying about getting there (and getting back). Advanced Propulsion Although human expeditions to Mars could be conducted using cryogenic propulsion and aerocapture, nuclear propulsion presents a compelling prospect for tremendously reducing the mass or travel time required. Advanced propulsion concepts including space storable landers (oxygen/methane), nuclear thermal propulsion, and the ability to store and manage cryogenic fluids for long durations are required. Development and demonstration of advanced,",
+      "Meaningful Work Lack of meaningful work is considered a psychological stressor that should be considered in long duration human spaceflight. [9] Preparing for, conducting, and recovering from EVAs will not consume all of the astronaut\u2019s available work hours, suggesting a need for some form of intravehicular activity (IVA). While aboard the Mir space station, US astronaut Norm Thagard had to wait for many of his science experiments to be delivered to the station. [15] NASA psychologist Al Holland states, \u201cThe situation of work underload is one of the worst situations you can ask a high-achieving, bright, interested astronaut to subject himself to.\u201d [15] For long duration missions, meaningful work and contingency response impose significant volume drivers and can become a dominant driver for vehicle volume. Crew work may encompass scientific research, robotic teleoperations, EVA operations, spacecraft monitoring and commanding, mission planning, maintenance and repair, and logistics operations. Mission objectives, crew size and workload, and vehicle volume are interrelated drivers will determine the minimum capabilities for meaningful work. Using ISS as an example, the four pressurized research modules in the US operational segment (USOS), Destiny, Centrifuge Accommodation Module, Japanese Experiment Module, and Columbus Module contain a total of 37 research racks.",
+      "significant amount of mass required for a human mission to Mars, numerous heavy-lift launches would be required. The reference launch vehicle that would be used is the Ares V launch vehicle. Using the same launch vehicle currently envisioned for lunar missions would greatly improve the overall mission risk due to the improved maturity of the launch vehicle by the time the Mars missions commence. Current estimates of the mission manifest indicate that at least seven heavy-lift cargo launches would be required, but the number of launches could be higher, depending on the architecture-wide technology options inserted. This large number of launches necessitates a launch campaign that must begin several months prior to the opening of the Mars departure window. The reference strategy that is adopted eliminates on-orbit assembly of the mission elements by segmenting the systems into discrete packages and using automated rendezvous and docking (AR&D) of the major elements in LEO. Launches would occur 30 days apart and would be completed several months before the opening of the Mars departure window to provide a margin for technical delays and other unforeseen problems. This strategy requires that the in space transportation systems and payloads loiter in LEO for several months",
+      "significant amount of mass required for a human mission to Mars, numerous heavy-lift launches would be required. The reference launch vehicle that would be used is the Ares V launch vehicle. Using the same launch vehicle currently envisioned for lunar missions would greatly improve the overall mission risk due to the improved maturity of the launch vehicle by the time the Mars missions commence. Current estimates of the mission manifest indicate that at least seven heavy-lift cargo launches would be required, but the number of launches could be higher, depending on the architecture-wide technology options inserted. This large number of launches necessitates a launch campaign that must begin several months prior to the opening of the Mars departure window. The reference strategy that is adopted eliminates on-orbit assembly of the mission elements by segmenting the systems into discrete packages and using automated rendezvous and docking (AR&D) of the major elements in LEO. Launches would occur 30 days apart and would be completed several months before the opening of the Mars departure window to provide a margin for technical delays and other unforeseen problems. This strategy requires that the in space transportation systems and payloads loiter in LEO for several months"
+    ],
+    "retrieved": [
+      {
+        "title": "Gateway Lunar Habitat Modules as the Basis for a Modular Mars Transit Habitat",
+        "page": 6,
+        "report_id": "20200002332"
+      },
+      {
+        "title": "Human Exploration of Mars Design Reference Architecture 5.0",
+        "page": 12,
+        "report_id": "20090040343"
+      },
+      {
+        "title": "Gateway Lunar Habitat Modules as the Basis for a Modular Mars Transit Habitat",
+        "page": 3,
+        "report_id": "20200002332"
+      },
+      {
+        "title": "NASA\u2019s Strategic Analysis Cycle 2021 (SAC21) Human Mars Architecture",
+        "page": 5,
+        "report_id": "20210026448"
+      },
+      {
+        "title": "Human Exploration of Mars Design Reference Architecture 5.0",
+        "page": 23,
+        "report_id": "20090040343"
+      },
+      {
+        "title": "Design Variants of a Common Habitat for Moon and Mars Exploration",
+        "page": 10,
+        "report_id": "20205001678"
+      },
+      {
+        "title": "Human Exploration of Mars Design Reference Architecture 5.0",
+        "page": 8,
+        "report_id": "20090040343"
+      },
+      {
+        "title": "Human Exploration of Mars Design Reference Architecture 5.0",
+        "page": 9,
+        "report_id": "20090040343"
+      }
+    ],
+    "cited": [
+      {
+        "title": "Human Exploration of Mars Design Reference Architecture 5.0",
+        "page": 12,
+        "report_id": "20090040343"
+      },
+      {
+        "title": "Human Exploration of Mars Design Reference Architecture 5.0",
+        "page": 23,
+        "report_id": "20090040343"
+      }
+    ],
+    "latency_seconds": 14.39,
+    "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "id": 4,
+    "question": "What is NASA's career radiation limit for astronauts?",
+    "ground_truth": "600 mSv.",
+    "answerable": true,
+    "answer": "NASA's career radiation exposure limit is 600 mSv [2]. This limit is established to cap the mean excess risk of cancer-related death at 3% above baseline [2].",
+    "declined": false,
+    "contexts": [
+      "exceed this threshold, NASA is pursuing a multi-layered protection strategy that includes spacecraft shielding, storm shelters, real-time dosimetry, forecasting systems, and emerging biological countermeasures. Understanding and mitigating radiation risks is essential to protecting astronaut health, ensuring mission success, and supporting the long-term viability of deep space exploration. III. Comparison of ISS Mission Exposures and Terrestrial Workers Astronauts represent the most highly exposed occupational group in terms of ionizing radiation. On the International Space Station (ISS), effective doses accumulate at a rate of approximately 0.2 to 0.5 mSv/day, averaging between ~40 and 90 mSv during a typical six-month mission [3]. Cumulative exposures increase with mission frequency and duration, with the highest recorded multi-mission doses for a U.S. astronauts estimated at approximately 240 mSv to 290 mSv. Even for astronauts with extensive flight histories, cumulative exposures remain below NASA's 600 mSv career limit. Russian cosmonauts have historically received slightly higher cumulative exposures, averaging 380\u2013410 mSv, with a maximum of ~470\u2013500 mSv reported after more than 1,110 days in low Earth orbit (LEO) [4]. In contrast, modern terrestrial radiation workers are exposed to significantly lower levels. The U.S. Department of Energy (DOE) occupational limit is 50 mSv per year, but most workers receive",
+      "pg. 2 II. Introduction NASA's Artemis campaign marks a major step in establishing a sustainable human presence on the Moon and preparing for future missions to Mars [1]. Without the protection of Earth\u2019s magnetosphere, astronauts will be exposed to significantly higher levels of ionizing radiation. While spacecraft and habitats will incorporate shielding to protect against large solar particle events (SPEs), the persistent and penetrating threat from galactic cosmic radiation (GCR) remains a central concern\u2014especially for the first human missions to Mars. Radiation exposure poses serious health risks, including increased cancer incidence, neurocognitive and cardiovascular effects, and immune dysfunction. NASA recently adopted a career radiation exposure limit of 600 mSv to cap the mean excess risk of cancer-related death at 3% above baseline [. 2]. Although the new standard extends permissible mission durations by a factor of ~1.5 to >3 compared to the previous limit, it introduces new uncertainties\u2014particularly regarding cardiovascular, cerebrovascular, and cognitive outcomes. Since Mars missions are expected to exceed this threshold, NASA is pursuing a multi-layered protection strategy that includes spacecraft shielding, storm shelters, real-time dosimetry, forecasting systems, and emerging biological countermeasures. Understanding and mitigating radiation risks is essential to protecting astronaut health, ensuring mission success, and supporting",
+      "years with 10\u201350 sols on the surface. A light-footprint, initial mission architecture has been iteratively developed over several design cycles and currently serves as a foundational reference within the broader mission trade space. Current Design Reference Missions (DRMs) emphasize short surface stays of approximately 30 sols, with total mission durations between 870 and 1,250 days. Estimated radiation exposure for these profiles varies significantly depending on mission duration and solar cycle conditions, ranging from 525 mSv (870-day mission during solar maximum) to 1,625 mSv (1,250-day mission during solar minimum). In the event of a large Solar Particle Event (SPE) during transit, additional doses between 125\u2013250 mSv may be incurred. On the Martian surface, such events may contribute an additional 25 mSv (with shielding) to ~40 mSv (unshielded). Overall, total mission exposures are projected to fall within the range of 1,000 to 1,200 mSv \u2014 roughly twice NASA\u2019s 600 mSv career exposure limit. These large exposures are expected to: \u2022 Increase the risk of radiogenic cancers, with exposures well beyond current thresholds used to manage acceptable risk levels on ISS. \u2022 Potentially cross dose thresholds associated with cardiovascular disease and late-onset neurocognitive impairments, although human data at these dose levels are limited",
+      "after more than 1,110 days in low Earth orbit (LEO) [4]. In contrast, modern terrestrial radiation workers are exposed to significantly lower levels. The U.S. Department of Energy (DOE) occupational limit is 50 mSv per year, but most workers receive far less. DOE employees average under 0.5 mSv annually, with only 25% receiving measurable doses [5]. Navy Nuclear Propulsion Program personnel average 1.13 mSv per year, with lifetime exposures around 10 mSv [6]. Commercial aircrew accumulate roughly 3\u20136 mSv per year, depending on flight hours and solar activity [7]. For comparison, the general population receives about 3 mSv annually from natural background sources. Typical exposures from common events\u2014such as a roundtrip flight from New York to London or a chest X-ray\u2014are approximately 0.1 mSv. Overall, astronaut radiation exposures are one to two orders of magnitude higher than those experienced by terrestrial workers or the general public. This underscores the unique and elevated risks astronauts face, particularly as operations move beyond LEO and mission durations lengthen. IV. Radiation Protection and Exposure estimates for Moon to Mars Missions Radiation standards have been established for vehicle shield design, real-time and personal monitoring, short- term exposure limits, and career limits [2]. For all Artemis",
+      "risk of radiogenic cancers, with exposures well beyond current thresholds used to manage acceptable risk levels on ISS. \u2022 Potentially cross dose thresholds associated with cardiovascular disease and late-onset neurocognitive impairments, although human data at these dose levels are limited and uncertainty remains regarding the magnitude of these risks. \u2022 Introduce the possibility of in-mission central nervous system performance impairments, particularly due to chronic large GCR exposure in combination with other spaceflight stressors [11], though the likelihood of such effects is currently unknown. \u2022 Exceed prior spaceflight experience by a factor of 2\u20133, resulting in significant knowledge gaps in predicting long-term health outcomes. Solar activity and mission duration are the primary factors driving these large exposures. Further reductions remain challenging. Thick shielding or fast transits are mass prohibitive within current architecture constraints. Thus, it is likely an exception to NASA\u2019s radiation health standard would be needed, requiring clear risk communication and informed consent based on an ethical framework [12, 13]. Crew monitoring and development of preventive countermeasures are also deemed necessary to address both acute and long-term health impacts.",
+      "pg. 4 C. Mission Exposure Estimates Mission exposures for NASA\u2019s Moon to Mars Exploration Segments [1] are described below. Estimates are based on values provided in Table 1 and assumed mission profiles. Moon-to-Mars mission exposures are described below and summarized in Table 2. 1. Human Lunar Return: Artemis II to III missions will be less than 30 days with estimated exposures between < 20 mSv to ~ 30 mSv [10]. In the unlikely occurrence of a large solar proton event, the Orion spacecraft is designed to limit crew exposures to <150 mSv (more conservative than current standard). These exposures are well below our ISS experience and all crew \u2013 including experienced crew - should be eligible to participate and remain below the 600 mSv limit. 2. Foundational Exploration to Sustained Lunar Evolution: As NASA plans for longer crewed missions to the Moon\u2014around the South Pole\u2014operations and technology will be upgraded to support stays ranging from several months to years. The goal is to create a lasting presence and start building a lunar economy. For missions lasting 6 to 12 months, astronauts will be exposed to space radiation ranging from under 100 millisieverts (mSv) during solar maximum to about 350 mSv",
+      "LEO and mission durations lengthen. IV. Radiation Protection and Exposure estimates for Moon to Mars Missions Radiation standards have been established for vehicle shield design, real-time and personal monitoring, short- term exposure limits, and career limits [2]. For all Artemis missions, spacecraft designs and operations will ensure individual crew exposures from solar particle events and galactic cosmic radiation remain as low as reasonably achievable while meeting mission objectives. Crew exposures will vary based on solar activity, shielding, and mission duration. Crew will be informed of their overall risks from exposure for each upcoming mission. Post-mission, NASA provides for the long-term care of astronauts from health issues associated with spaceflight per the TREAT act [8]. A. Protection from Solar Particle Events (SPE) Mitigation strategies for solar particle events (SPEs) are designed to keep crew exposure below NASA\u2019s short-term limit of 250 mSv [2]. Vehicles and habitats are being engineered with integrated storm shelters that offer effective protection while minimizing mass. NASA\u2019s standards provide specific guidance for shelter shielding design. Crew safety during SPEs will rely on multiple layers of protection, including solar monitoring, forecasting tools, real-time dosimetry, and established operational protocols to ensure timely sheltering. For cis-lunar missions, NASA is advancing",
+      "n Interplanetary space Mars surface n 30-month Mars mission 1000 900 800 700 600 500 400 300 200 . . . . 100 ., 0 ^ Neutron Z=1 Z=2 Z=3-10 Z=11-20 Z>21 Projectile Target fragment Radiation type Fig. 10: Effective dose of each charge group, overall projectile of GCR, and target fragmentation inside a spherical spacecraft with 5 g/cm2 aluminum: Annual exposure in interplanetary and on Mars surface; and that for 30-month Mars mission. Career dose limits, which correspond to a 3% risk of cancer mortality for a 10 year career, are recommended by the National Council on Radiation Protection and Measurements (NCRP, 1989 and 2000) and are shown in Table 2. The estimation in Fig. 10 of effective dose for a 30-month Mars mission exceeded the career limit of a 35-year old male astronaut, (0.9 Sv of the NCRP limit (2000)). When a vehicle geometry and a Mars mission scenario are defined in detail, the probabilistic risk assessment would be made accurately for the protection of astronauts. By using various levels of particle intensities of the GCR environment as in Fig. 3, the range of risk can be assessed. NCRP Report No. 98 NCRP Report No. 132 (Sv) (Sv)"
+    ],
+    "retrieved": [
+      {
+        "title": "Moon 2 Mars Space Radiation Protection \u201cBuying Down\u201d Risks to Crew",
+        "page": 2,
+        "report_id": "20250006168"
+      },
+      {
+        "title": "Moon 2 Mars Space Radiation Protection \u201cBuying Down\u201d Risks to Crew",
+        "page": 2,
+        "report_id": "20250006168"
+      },
+      {
+        "title": "Moon 2 Mars Space Radiation Protection \u201cBuying Down\u201d Risks to Crew",
+        "page": 4,
+        "report_id": "20250006168"
+      },
+      {
+        "title": "Moon 2 Mars Space Radiation Protection \u201cBuying Down\u201d Risks to Crew",
+        "page": 2,
+        "report_id": "20250006168"
+      },
+      {
+        "title": "Moon 2 Mars Space Radiation Protection \u201cBuying Down\u201d Risks to Crew",
+        "page": 4,
+        "report_id": "20250006168"
+      },
+      {
+        "title": "Moon 2 Mars Space Radiation Protection \u201cBuying Down\u201d Risks to Crew",
+        "page": 4,
+        "report_id": "20250006168"
+      },
+      {
+        "title": "Moon 2 Mars Space Radiation Protection \u201cBuying Down\u201d Risks to Crew",
+        "page": 2,
+        "report_id": "20250006168"
+      },
+      {
+        "title": "Probabilistic Assessment of Radiation Risk for Astronauts in Space Missions",
+        "page": 8,
+        "report_id": "20090009772"
+      }
+    ],
+    "cited": [
+      {
+        "title": "Moon 2 Mars Space Radiation Protection \u201cBuying Down\u201d Risks to Crew",
+        "page": 2,
+        "report_id": "20250006168"
+      }
+    ],
+    "latency_seconds": 13.03,
+    "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "id": 5,
+    "question": "What are the main health risks from space radiation?",
+    "ground_truth": "Cancer, cardiovascular disease, neurocognitive effects and immune dysfunction.",
+    "answerable": true,
+    "answer": "Based on the provided reports, the main health risks from space radiation include:\n\n* **Radiogenic Cancers:** Increased incidence and risk of developing cancers [3, 5, 6, 8].\n* **Cardiovascular and Cerebrovascular Diseases:** Risks including cardiac, vascular, cerebrovascular, and heart diseases [3, 4, 5, 6, 8].\n* **Central Nervous System (CNS) and Neurocognitive Impacts:** Late-onset neurocognitive and degenerative tissue impairments, as well as in-mission CNS performance decrements and behavioral/cognitive issues [2, 3, 4, 6, 7].\n* **Immune Dysfunction:** Impairments related to immune regulation [5, 6, 7].",
+    "declined": false,
+    "contexts": [
+      "events can disrupt or delay mission operations leading to excessive costs. For space missions with longer duration, multiple exposures to SPEs with intense particle fluxes and high energy levels are the major concern. Although the risk of early effects may be small due to the reduction of dose-rates behind shielding (Hu et al. 2009), there remains a significant cancer risk for some events (Cucinotta 1999; Cucinotta and Durante 2006; Durante and Cucinotta 2008). A record of occurrence times and proton fluence levels >30 MeV, \u03a6 30, for 370 events was gathered over 5 solar cycles, spanning the years 1954 to present. From the analysis of SPEs over the past 5 solar cycles, the association between SPE occurrence and solar activity has been studied, but without recognizable pattern in each of the solar cycles (Goswami et al. 1988; Kim et al. 2005; Kim et al. 2006). For the planning of a worst-case scenario of staying on the moon or Mars, a probability distribution function for SPE occurrence was formed from the available database of SPE proton fluence measurements. The cumulative probabilities of SPEs during short-period missions were defined using the proton fluences of the continuous SPE database (Kim et al. 2007).",
+      "risk of radiogenic cancers, with exposures well beyond current thresholds used to manage acceptable risk levels on ISS. \u2022 Potentially cross dose thresholds associated with cardiovascular disease and late-onset neurocognitive impairments, although human data at these dose levels are limited and uncertainty remains regarding the magnitude of these risks. \u2022 Introduce the possibility of in-mission central nervous system performance impairments, particularly due to chronic large GCR exposure in combination with other spaceflight stressors [11], though the likelihood of such effects is currently unknown. \u2022 Exceed prior spaceflight experience by a factor of 2\u20133, resulting in significant knowledge gaps in predicting long-term health outcomes. Solar activity and mission duration are the primary factors driving these large exposures. Further reductions remain challenging. Thick shielding or fast transits are mass prohibitive within current architecture constraints. Thus, it is likely an exception to NASA\u2019s radiation health standard would be needed, requiring clear risk communication and informed consent based on an ethical framework [12, 13]. Crew monitoring and development of preventive countermeasures are also deemed necessary to address both acute and long-term health impacts.",
+      "exposures; Cumulative exposures increase risk of radiogenic cancers. Additional protection strategies may reduce health risks for most experienced crew and those most sensitive to radiation effects. Humans to Mars 870 - 1250 days with stay times of 30-50 sols. Some crew may stay in Mars orbit. ~525 mSv (870 days, solar max) to 1650 mSv (1250 days, solar min) Three to four times > ISS exposures; all reference missions exceed 600 mSv limit; In addition to cancers, increased risks to CNS function, cardiovascular disease, cerebrovascular, and neurocognitive diseases. Effects of the combined stressors of spaceflight unknown. Possibility for unknown unknowns. Risk levels are not well understood. Additional protection strategies required for all crew. IV Quantifying Radiation Risks Identifying space radiation\u2013related health risks requires integrating data across a hierarchy of evidence, with human epidemiology, animal studies, and cellular models each playing distinct yet complementary roles. While astronaut data offer the most direct insight into spaceflight health risks, their utility is limited by small cohort sizes and reduced statistical power. Consequently, risk quantification often begins with terrestrial human cohorts exposed to gamma radiation, which provide epidemiological baselines for cancer and, to a lesser extent, cardiovascular and neurodegenerative outcomes. Translating these findings to",
+      "cardiac and vascular diseases, as well as late neurocognitive impairments. For long duration Mars mission with exposures significantly exceeding 600 mSv, research aims to understand in-mission central nervous system (CNS) performance decrements. Evaluating impact of combined spaceflight hazards on risk and developing computational tools are vital components of this objective. \u2022 Another priority is understanding the biology of individual sensitivity and susceptibility. Leveraging terrestrial radiation research from organizations such as the National Cancer Institute and the International Commission on Radiological Protection will be critical [30]. NASA unique biological research will be required to meet these objectives. This will enable personalized risk assessments and protection plans for all crew members. \u2022 Ensuring in situ monitoring of crew health is also crucial to inform timely countermeasure deployment. This requires identifying measurable biomarkers of tissue injury or early disease indicators and validating these markers during space missions longer than six months. \u2022 \u2022 Furthermore, the development of biological countermeasures to reduce adverse health outcomes is critical, with a focus on disease prevention. Countermeasures should target disease pathways common across risk areas such as chronic inflammation, mitochondrial dysfunction, oxidative stress, and DNA damage. Validating terrestrial approaches for space applications will enhance these efforts. \u2022",
+      "pg. 2 II. Introduction NASA's Artemis campaign marks a major step in establishing a sustainable human presence on the Moon and preparing for future missions to Mars [1]. Without the protection of Earth\u2019s magnetosphere, astronauts will be exposed to significantly higher levels of ionizing radiation. While spacecraft and habitats will incorporate shielding to protect against large solar particle events (SPEs), the persistent and penetrating threat from galactic cosmic radiation (GCR) remains a central concern\u2014especially for the first human missions to Mars. Radiation exposure poses serious health risks, including increased cancer incidence, neurocognitive and cardiovascular effects, and immune dysfunction. NASA recently adopted a career radiation exposure limit of 600 mSv to cap the mean excess risk of cancer-related death at 3% above baseline [. 2]. Although the new standard extends permissible mission durations by a factor of ~1.5 to >3 compared to the previous limit, it introduces new uncertainties\u2014particularly regarding cardiovascular, cerebrovascular, and cognitive outcomes. Since Mars missions are expected to exceed this threshold, NASA is pursuing a multi-layered protection strategy that includes spacecraft shielding, storm shelters, real-time dosimetry, forecasting systems, and emerging biological countermeasures. Understanding and mitigating radiation risks is essential to protecting astronaut health, ensuring mission success, and supporting",
+      "The cosmic radiation symphony: Soundtrack for a journey to Mars Richard Snow, PhD1, Jenna Deboisblanc, BA1, Jacob Gartenstein1, William Nelson, BS1, Cary J. Zeitlin, PhD2,3, Ryan B. Norman, PhD4, Janice L. Huff, PhD4, Zarana S. Patel, PhD3,5 1Tulane University, New Orleans, Louisiana, USA. 2Lockheed, Houston, Texas, USA. 3NASA Lyndon B. Johnson Space Center, Houston, Texas, USA. 4NASA Langley Research Center, Hampton, VA, USA. 5KBR, Houston, Texas, USA. ABSTRACT Space radiation (SR) is a constant threat to astronauts who journey away from the Earth\u2019s protective magnetosphere. Galactic cosmic rays (GCR) are atomic nuclei from remnants of supernovae and are omnipresent in outer space. These ionized particles travel close to the speed of light and when they traverse biological material, they leave behind a path of damage. Another space radiation threat is from our sun when solar particle events (SPEs), or bursts of energetic protons, occur. Exposure to space radiation can lead to cancer, cardiovascular disease, immune dysfunction, and cognitive and behavioral decrements. Yet humans cannot see, smell, taste, hear, or feel radiation, making it less tangible than other health threats and much more difficult to describe. This is an important gap in risk communication that the Space Radiation Element is working",
+      "chronic, low-dose exposure experienced in deep space remains a central challenge. Most experimental studies use fractionated GCR exposures over a 4- to 6-week period, which cannot fully replicate the continuous low-dose rates in space. While NASA\u2019s Space Radiation Laboratory is uniquely equipped for such simulations, dose-rate effects continue to represent a major source of uncertainty [16, 23]. In addition to radiation, astronauts face numerous spaceflight-related stressors\u2014microgravity, isolation, confinement, and sleep disruption\u2014that may compound health risks and impair in-mission performance. The interaction between these stressors and radiation exposure remains poorly understood, particularly for long-duration missions. These combined uncertainties affect projections for not only cancer, but also CNS function, cardiovascular health, degenerative tissue outcomes, and immune regulation. Additional data will be required to inform the development of risk models. Current risk estimates are based on population models that do not incorporate individual genetic susceptibility, medical history, or emerging risk factors [29]. Integration of known and emerging risk factors aligns with the broader trend toward individualized medicine and can improve the fidelity of risk projections. Mars mission exposures are expected to exceed NASA\u2019s current health standards by upto a factor of ~two. Tools to assess risk for crew informed consent and appropriate acceptance",
+      "pg. 1 Moon 2 Mars Space Radiation Protection \u201cBuying Down\u201d Risks to Crew Lisa C. Simonsen1 NASA HQ 1, Washington DC, 20546, USA Janice A. Zawaski2 and Jason Weeks3 NASA Johnson Space Center 2,3, Houston, Texas 77058, USA While working on the International Space Station (ISS), astronauts receive orders of magnitude more radiation exposure than any modern terrestrial radiation worker. As NASA develops long-duration mission capabilities beyond LEO, crew radiation exposures levels may exceed our current ISS knowledge base and approach or exceed NASA\u2019s new radiation standard of 600 mSv for the longest duration missions to Mars. Within NASA\u2019s Moon 2 Mars (M2M) architecture planning, technology solutions to significantly reduce exposures are mass prohibitive. These larger exposures will put crew at increased risk of developing cardiac, vascular, and cerebrovascular diseases in addition to radiogenic cancers. Research is required to quantify these risks and identify countermeasure strategies within mission constraints (mass, power, volume). The integrated solution space to protect crew spans both physical and biological mitigation strategies. Agreement on space radiation health research and test objectives is needed to align biological deliverables with Agency technology roadmaps to develop an integrated protection strategy. Here, we focus on the biological aspects of protection"
+    ],
+    "retrieved": [
+      {
+        "title": "Probabilistic Assessment of Radiation Risk for Astronauts in Space Missions",
+        "page": 2,
+        "report_id": "20090009772"
+      },
+      {
+        "title": "Moon 2 Mars Space Radiation Protection \u201cBuying Down\u201d Risks to Crew",
+        "page": 4,
+        "report_id": "20250006168"
+      },
+      {
+        "title": "Moon 2 Mars Space Radiation Protection \u201cBuying Down\u201d Risks to Crew",
+        "page": 5,
+        "report_id": "20250006168"
+      },
+      {
+        "title": "Moon 2 Mars Space Radiation Protection \u201cBuying Down\u201d Risks to Crew",
+        "page": 8,
+        "report_id": "20250006168"
+      },
+      {
+        "title": "Moon 2 Mars Space Radiation Protection \u201cBuying Down\u201d Risks to Crew",
+        "page": 2,
+        "report_id": "20250006168"
+      },
+      {
+        "title": "The Cosmic Radiation Symphony:  Soundtrack for a Journey to Mars",
+        "page": 1,
+        "report_id": "20205005856"
+      },
+      {
+        "title": "Moon 2 Mars Space Radiation Protection \u201cBuying Down\u201d Risks to Crew",
+        "page": 7,
+        "report_id": "20250006168"
+      },
+      {
+        "title": "Moon 2 Mars Space Radiation Protection \u201cBuying Down\u201d Risks to Crew",
+        "page": 1,
+        "report_id": "20250006168"
+      }
+    ],
+    "cited": [
+      {
+        "title": "Moon 2 Mars Space Radiation Protection \u201cBuying Down\u201d Risks to Crew",
+        "page": 4,
+        "report_id": "20250006168"
+      },
+      {
+        "title": "Moon 2 Mars Space Radiation Protection \u201cBuying Down\u201d Risks to Crew",
+        "page": 5,
+        "report_id": "20250006168"
+      },
+      {
+        "title": "Moon 2 Mars Space Radiation Protection \u201cBuying Down\u201d Risks to Crew",
+        "page": 8,
+        "report_id": "20250006168"
+      },
+      {
+        "title": "Moon 2 Mars Space Radiation Protection \u201cBuying Down\u201d Risks to Crew",
+        "page": 2,
+        "report_id": "20250006168"
+      },
+      {
+        "title": "The Cosmic Radiation Symphony:  Soundtrack for a Journey to Mars",
+        "page": 1,
+        "report_id": "20205005856"
+      },
+      {
+        "title": "Moon 2 Mars Space Radiation Protection \u201cBuying Down\u201d Risks to Crew",
+        "page": 7,
+        "report_id": "20250006168"
+      },
+      {
+        "title": "Moon 2 Mars Space Radiation Protection \u201cBuying Down\u201d Risks to Crew",
+        "page": 1,
+        "report_id": "20250006168"
+      }
+    ],
+    "latency_seconds": 21.74,
+    "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "id": 6,
+    "question": "What are solar particle events and galactic cosmic radiation?",
+    "ground_truth": "The two main sources of space radiation for astronauts.",
+    "answerable": true,
+    "answer": "Solar particle events (SPEs) are bursts of energetic protons or solar flares originating from the sun [1, 3]. They are comprised largely of medium-energy protons (less than several hundred MeV) [2] or solar energetic particles that are mostly protons with a variable heavy ion composition [5]. SPE occurrences are random in nature, though their frequency distribution depends on the solar activity cycle [2]. They are infrequent, unpredictable, widely varying in intensity, and typically last only a few days [3, 5]. \n\nGalactic cosmic rays (GCRs) are atomic nuclei from remnants of supernovae that are omnipresent in outer space [1]. They consist of high-energy protons and heavy ions\u2014mostly protons with 10% helium and 1% heavier ions\u2014and travel close to the speed of light [1, 2, 5]. GCRs feature a hard spectrum and a relatively constant intensity that varies by a factor of 2 to 3 with the solar cycle, showing lowest intensity during solar maximum and highest during solar minimum [4, 5, 8]. Because of their high energy and penetrating nature, they present a chronic exposure risk that is harder to shield against than SPEs [1, 8].",
+    "declined": false,
+    "contexts": [
+      "The cosmic radiation symphony: Soundtrack for a journey to Mars Richard Snow, PhD1, Jenna Deboisblanc, BA1, Jacob Gartenstein1, William Nelson, BS1, Cary J. Zeitlin, PhD2,3, Ryan B. Norman, PhD4, Janice L. Huff, PhD4, Zarana S. Patel, PhD3,5 1Tulane University, New Orleans, Louisiana, USA. 2Lockheed, Houston, Texas, USA. 3NASA Lyndon B. Johnson Space Center, Houston, Texas, USA. 4NASA Langley Research Center, Hampton, VA, USA. 5KBR, Houston, Texas, USA. ABSTRACT Space radiation (SR) is a constant threat to astronauts who journey away from the Earth\u2019s protective magnetosphere. Galactic cosmic rays (GCR) are atomic nuclei from remnants of supernovae and are omnipresent in outer space. These ionized particles travel close to the speed of light and when they traverse biological material, they leave behind a path of damage. Another space radiation threat is from our sun when solar particle events (SPEs), or bursts of energetic protons, occur. Exposure to space radiation can lead to cancer, cardiovascular disease, immune dysfunction, and cognitive and behavioral decrements. Yet humans cannot see, smell, taste, hear, or feel radiation, making it less tangible than other health threats and much more difficult to describe. This is an important gap in risk communication that the Space Radiation Element is working",
+      "IAC-09-A1.4.09 Probabilistic Assessment of Radiation Risk for Astronauts in Space Missions Myung-Hee Y. Kim Universities Space Research Association, Houston, TX 77058, USA myung-hee.y.kim@nasa.gov Giovanni De Angelis Instituto Superiore di Sanita, Rome, Italy giovanni.deangelis@iss.it Francis A. Cucinotta NASA Johnson Space Center, Houston, TX 77058, USA francis.a.cucinotta@nasa.gov ABSTRACT Accurate estimations of the health risks to astronauts due to space radiation exposure are necessary for future lunar and Mars missions. Space radiation consists of solar particle events (SPEs), comprised largely of medium energy protons (less than several hundred MeV); and galactic cosmic rays (GCR), which include high energy protons and heavy ions. While the frequency distribution of SPEs depends strongly upon the phase within the solar activity cycle, the individual SPE occurrences themselves are random in nature. A solar modulation model has been developed for the temporal characterization of the GCR environment, which is represented by the deceleration potential, \u03c6. The risk of radiation exposure to hardware as well as to astronauts from SPEs during extra-vehicular activities (EVAs) or in lightly shielded vehicles is a major concern for radiation protection. To support the probabilistic risk assessment for EVAs, which could be up to 15% of crew time on lunar missions, we estimated the",
+      "27 g/cm2 (16 lb/in2) of protection from harmful radiation [3], radiation at the surface remains a major concern. Three primary radiation sources must be considered: continuous solar radiation, intermittent Solar Proton Events (SPEs), and persistent Galactic Cosmic Rays (GCRs). Solar irradiance on Mars ranges from 493 W/m\u00b2 at the lowest elevations to 717 W/m2 at the highest elevations, with an average of about 589 W/m2. For comparison, Earth receives an average of 1367 W/m2. Ultraviolet exposure on Mars is significantly higher than on Earth; however, the CO2 atmosphere absorbs nearly all wavelengths shorter than 2000 \u00c5 before they reach the surface [25]. Solar Proton Events\u2014solar flares\u2014are infrequent and typically last only a few days. Because EVAs are not expected to occur during these events, spacesuit designs generally do not account for SPE exposure. Galactic Cosmic Rays, on the other hand, can contribute to Single Event Effects (SEE) and Total Ionizing Dose (TID). Specific radiation levels that need to be accommodated in a Mars spacesuit will be determined in future assessments. 5. Dust and Soil The composition of Martian soil is not fully characterized, but data from the Viking landers indicate a mix of fine- grained drift material, blocky fragments, and",
+      "pg. 2 II. Introduction NASA's Artemis campaign marks a major step in establishing a sustainable human presence on the Moon and preparing for future missions to Mars [1]. Without the protection of Earth\u2019s magnetosphere, astronauts will be exposed to significantly higher levels of ionizing radiation. While spacecraft and habitats will incorporate shielding to protect against large solar particle events (SPEs), the persistent and penetrating threat from galactic cosmic radiation (GCR) remains a central concern\u2014especially for the first human missions to Mars. Radiation exposure poses serious health risks, including increased cancer incidence, neurocognitive and cardiovascular effects, and immune dysfunction. NASA recently adopted a career radiation exposure limit of 600 mSv to cap the mean excess risk of cancer-related death at 3% above baseline [. 2]. Although the new standard extends permissible mission durations by a factor of ~1.5 to >3 compared to the previous limit, it introduces new uncertainties\u2014particularly regarding cardiovascular, cerebrovascular, and cognitive outcomes. Since Mars missions are expected to exceed this threshold, NASA is pursuing a multi-layered protection strategy that includes spacecraft shielding, storm shelters, real-time dosimetry, forecasting systems, and emerging biological countermeasures. Understanding and mitigating radiation risks is essential to protecting astronaut health, ensuring mission success, and supporting",
+      "g/cm 2 (~ 30 cm) below the surface. At this depth, neutrons dominate the dose equivalent and further reductions are not so rapid. We have not estimated the neutron dose under the surface. CONCEPTS: THE NATURAL RADIATION ENVIRONMENT The natural radiation environment encountered on a mission to Mars consists primarily of galactic cosmic rays and solar energetic particles. Galactic Cosmic Rays: (a) Mostly protons, 10% He, 1% heavier ions; (b) Hard spectrum (E-2.2 for protons); (c) Relatively constant inten- sity (factor of 2-3 variation with solar cycle); and (d) High energy (mean about 2 GeV/nucleon). Solar Energetic Particles: (a) Mostly protons, variable heavy ion composition usually not as rich as cosmic rays; (b) Soft spectrum (E-5 or so for protons); (c) Widely varying intensity (many orders of magni- tude); (d) Low energy (mean < I00 MeV/nucleon); and (e) Unpredictable. Figure 1 shows the differential proton energy spectrum for cosmic rays at solar minimum and solar maximum, and for a large solar event (4-7 Aug 1972). The cosmic ray spectra are integrated over a week, while the solar protons are integrated over the flare duration. Above a few GeV/nucleon there is no solar cycle variation. Low energy fluxes vary by up",
+      "International Conference on Environmental Systems 8 Figure 4. Elevation map of Mars with locations of hottest and coldest yearly surface temperatures at latitudes of -50, -25, 0, +25, and +50 and within a pressure maximum of 7 torr. Table 3. Surface and atmospheric temperatures for worst-case hot (WCH) and worst-case cold (WCC) locations on Mars at latitudes of -50, -25, 0, +25, and +50 and within a pressure maximum of 7 torr. Latitude Condition Longitude Surface Temp, K Atmospheric Temp, K Minimum Maximum Minimum Maximum -50 WCH -124 200 303 203 277 WCC -98 145 162 146 161 -25 WCH +108 187 312 193 279 WCC -116 148 236 152 222 0 WCH +60 178 303 183 271 WCC -108 144 265 146 237 +25 WCH +12 148 288 153 260 WCC -112 146 265 154 248 +50 WCH 70 191 275 195 256 WCC -100 148 177 151 175 4. Radiation While the CO2 atmosphere on Mars offers roughly 27 g/cm2 (16 lb/in2) of protection from harmful radiation [3], radiation at the surface remains a major concern. Three primary radiation sources must be considered: continuous solar radiation, intermittent Solar Proton Events (SPEs), and persistent Galactic Cosmic Rays (GCRs). Solar",
+      "solar event (4-7 Aug 1972). The cosmic ray spectra are integrated over a week, while the solar protons are integrated over the flare duration. Above a few GeV/nucleon there is no solar cycle variation. Low energy fluxes vary by up to a factor of I0. Integral fluxes above I00 MeV/ nucleon vary by factors of 2 or 3. 643",
+      "pg. 3 capabilities. Mars missions present additional challenges due to Earth-independent operations. These include the need for compact onboard environmental monitoring systems and new infrastructure to monitor solar activity along the Mars\u2013Sun line. Acute exposure estimates for major SPEs (e.g., the October 1989 event) are included in Table 1. Additional protection may needed for Mars transit trajectories that include a Venus swing-by (0.5 AU) where the intensity of a well-connected SPE an be magnified by a factor of ~2 to >4. In rare cases of high-dose exposure, terrestrial countermeasures developed for accidental or deliberate radiation events may be repurposed to manage acute radiation syndromes in space. B. Protection from Galactic Cosmic Radiation (GCR) Galactic cosmic radiation (GCR) presents a chronic exposure risk due to its high energy and penetrating nature, making it much harder to shield against than SPEs. GCR flux is modulated by the 11-yr solar cycle: intensity is lowest during solar maximum and highest during solar minimum. As a result, estimated crew exposures behind standard spacecraft shielding are reduced by roughly a factor of two during solar maximum [9]. However, this benefit is counterbalanced by an increased likelihood of SPEs during the same period. Effective GCR shielding is"
+    ],
+    "retrieved": [
+      {
+        "title": "The Cosmic Radiation Symphony:  Soundtrack for a Journey to Mars",
+        "page": 1,
+        "report_id": "20205005856"
+      },
+      {
+        "title": "Probabilistic Assessment of Radiation Risk for Astronauts in Space Missions",
+        "page": 1,
+        "report_id": "20090009772"
+      },
+      {
+        "title": "Mars Portable Life Support System Status and Plan",
+        "page": 8,
+        "report_id": "20260003024"
+      },
+      {
+        "title": "Moon 2 Mars Space Radiation Protection \u201cBuying Down\u201d Risks to Crew",
+        "page": 2,
+        "report_id": "20250006168"
+      },
+      {
+        "title": "Natural radiation hazards on the manned Mars mission",
+        "page": 2,
+        "report_id": "19870008344"
+      },
+      {
+        "title": "Mars Portable Life Support System Status and Plan",
+        "page": 8,
+        "report_id": "20260003024"
+      },
+      {
+        "title": "Natural radiation hazards on the manned Mars mission",
+        "page": 2,
+        "report_id": "19870008344"
+      },
+      {
+        "title": "Moon 2 Mars Space Radiation Protection \u201cBuying Down\u201d Risks to Crew",
+        "page": 3,
+        "report_id": "20250006168"
+      }
+    ],
+    "cited": [
+      {
+        "title": "The Cosmic Radiation Symphony:  Soundtrack for a Journey to Mars",
+        "page": 1,
+        "report_id": "20205005856"
+      },
+      {
+        "title": "Probabilistic Assessment of Radiation Risk for Astronauts in Space Missions",
+        "page": 1,
+        "report_id": "20090009772"
+      },
+      {
+        "title": "Mars Portable Life Support System Status and Plan",
+        "page": 8,
+        "report_id": "20260003024"
+      },
+      {
+        "title": "Moon 2 Mars Space Radiation Protection \u201cBuying Down\u201d Risks to Crew",
+        "page": 2,
+        "report_id": "20250006168"
+      },
+      {
+        "title": "Natural radiation hazards on the manned Mars mission",
+        "page": 2,
+        "report_id": "19870008344"
+      },
+      {
+        "title": "Moon 2 Mars Space Radiation Protection \u201cBuying Down\u201d Risks to Crew",
+        "page": 3,
+        "report_id": "20250006168"
+      }
+    ],
+    "latency_seconds": 15.07,
+    "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "id": 7,
+    "question": "Why is ascent propellant a challenge for the return trip from Mars?",
+    "ground_truth": "Large amounts are needed and must be hauled or made on Mars using ISRU.",
+    "answerable": true,
+    "answer": "Ascent propellant is a challenge for the return trip because Mars has a gravity well that requires climbing out of, translating to tons of ascent propellant needed to return home [1]. Acquiring this propellant requires either hauling it from somewhere else and landing it on Mars, or hauling heavy In Situ Resource Utilization (ISRU) equipment and significant power mass to manufacture it at scale on the planet [1]. Both methods demand substantial landed mass, and landing a fully fueled Mars Ascent Vehicle (MAV) is difficult to package within a 25-tonne payload envelope [4, 7].",
+    "declined": false,
+    "contexts": [
+      "challenge: we have no human performance data for such long periods away from Earth. Fortunately, we are well-positioned to meet this challenge, by using Earth-based analogs [2] and the International Space Station (ISS) to study the effects of closed environments, isolation, and confinement, and of course we use the ISS to study the effects of reduced gravity [3]. Artemis lunar missions will also give us an opportunity to study human re- adaptation to partial gravity and living and working for extended periods in hostile, reduced gravity environments. The third challenge at the top of our list is landing\u2014and ascending\u2014from Mars. Our robotic Mars exploration missions have thus far been entirely one-way. Mars has less gravity and atmosphere than Earth, but much more than the Moon. To return home, we\u2019ll need to climb out of the Mars \u201cgravity well\u201d [Figure 1] and that translates to tons of ascent propellant. There are two ways to acquire our ascent propellant: either haul it from somewhere else and land it on Mars, or haul In Situ Resource Utilization (ISRU) equipment\u2014plus significant power mass\u2014to manufacture ascent propellant at scale on Mars. Either method will require substantial landed mass, which brings us back to the other",
+      "from somewhere else and land it on Mars, or haul In Situ Resource Utilization (ISRU) equipment\u2014plus significant power mass\u2014to manufacture ascent propellant at scale on Mars. Either method will require substantial landed mass, which brings us back to the other piece of our third challenge: landing large payloads on Mars, estimated to be at least 20 times larger than our largest robotic landers to date. Our robotic missions, such as Curiosity and Perseverance, have advanced our landing technologies, and we\u2019ll learn more about ascent with the upcoming Mars sample return mission. Artemis will also advance our landing and ascent skills, particularly in the areas of precision landing. Figure 1. Gravity Wells: Relative energy states for 5-sol Mars orbit, Near Rectilinear Halo Orbit (NRHO), and Lunar Distant High Earth Orbit (LDHEO) 3. HUMAN MARS MISSION TRADE SPACE The three challenges outlined above, plus mission goals and objectives, generally define the trade space for human Mars missions. NASA\u2019s last published human Mars reference architecture focused on what is known as a conjunction class or long-stay mission, characterized by relatively fast transit to Mars when the planets\u2019 relative positions allow a minimum energy transit, followed by a very long loiter period at Mars",
+      "habitats and mobility systems. The plant is made up of solid oxide CO 2 electrolyzers (SOCEs) that convert CO2 into O2 and carbon monoxide (CO,) which is vented. The CO2 is obtained via a micro-channel adsorption pump. The CH4 fuel that is required for ascent is brought from Earth. Hydrogen (H2) (400 kg) is brought from Earth and reacted with Mars-produced O 2 to make up H2O that is lost during crew and EVA operations. Besides CO 2, N2 and Ar are also separated and collected from the Mars atmosphere for use as a buffer gas for crew breathing. Because the plant is driven more by power than mass, redundancy is accomplished by the use of two separate ISRU plants, each sized to generate the needed consumables. The mass, power, and volume of the system and associated components is documented in the full DRA 5.0 report [1]. These estimates are based on continuous propellant production, which is provided by a nuclear fission power source. Power estimates for a solar-based system are much higher since propellant production could only be done during the day, which requires a far greater processing rate and subsequent power level. 19",
+      "4 Useful payload envelope per lander, comfortably within the bounds of key entry, descent, and landing technologies. This payload envelope means that each major Mars cargo item must either be less than 25 t, or be divisible into smaller pieces, delivered on separate landers and reassembled on the surface of Mars. For an initial exploration mission limited to just 30 sols on the surface, two crew could comfortably live in a Pressurized Rover (PR), eliminating the need for a large, long-duration habitat (and substantial surface power for long- duration close-loop life support). For this analysis, NASA assumed the PR features suit ports [10] and suit port- compatible Extravehicular Activity (EVA) suits to facilitate rapid crew ingress/egress with minimal loss of cabin atmosphere, and to aid in dust mitigation. Other crew support systems, such as 10 kWe Fission Surface Power (FSP) [10] or crew logistics also fit within the 25-t envelope. Without ISRU in the short stay scheme, landing a fully fueled MAV, capable of lifting two crew and return cargo to 5-sol orbit, is challenging to package within the 25 t envelope; however, some ascent propellant could be delivered on a separate lander and robotically transferred to the MAV. Note",
+      "their cargo would be delivered via Liquid Oxygen (LOX)/Liquid Methane (LCH4) chemical stages on an energy-efficient, conjunction-class trajectory to Mars vicinity. The third lander, carrying a pressurized rover, a docking adapter, and crew consumables, would loiter in a 5-sol Mars parking orbit awaiting crew arrival. Spreading these deliveries out over several mission opportunities deconflicts Earth launch availability with other active campaigns, such as the Artemis lunar flights, and helps level year-to-year costs, but all three landers could be deployed during the same mission opportunity if budget, launch availability, and risk posture allows. Pre-Deployed Cargo Upon reaching Mars orbit, two of the three MDS\u2014one carrying the MAV and the other carrying MAV propellant, a 10 kWe FSP unit, and a robotic mobility system\u2014descend using a Hypersonic Inflatable Aerodynamic Decelerator (HIAD) [12] and a LOX/LCH4 supersonic retro-propulsion system to land within one kilometer (km) of each other and the planned crew landing site. After autonomously activating the FSP, MAV propellant is robotically transferred from the first lander to fill the partially empty MAV tanks on Figure 3. Comparison of Mars nuclear-enabled, opposition class transportation options",
+      "2 1. INTRODUCTION Mars continues to be an Agency horizon goal [1] for human exploration of our solar system. An initial human Mars mission might search for signs of extant life (i.e., life that still exists today) or assess options for longer term human sustainability. NASA\u2019s top priority for the crew once they land and validate habitation/exploration/ascent capabilities would be to perform high priority science objectives, established by the science community, using systems approved and provided by NASA\u2019s Science Mission Directorate (SMD). At the architecture level, the objective is to land humans on the surface of Mars and return them safely to Earth. Landing site selection for a first mission will be driven by crew safety, available capabilities, and science priorities. 2. CHALLENGES As compared to Artemis lunar missions, Mars offers three unique challenges for human exploration. The first challenge is the sheer distance. Graphics that depict minimum distance between Earth and Mars or estimates of one-way trip times can be misleading because they don\u2019t adequately communicate that Earth and Mars race around the Sun at different speeds, the distance between them constantly changing. Minimum distance between the two planets varies over an approximately 15 to 16-year synodic cycle, with",
+      "fueled MAV, capable of lifting two crew and return cargo to 5-sol orbit, is challenging to package within the 25 t envelope; however, some ascent propellant could be delivered on a separate lander and robotically transferred to the MAV. Note that many of these surface systems, particularly the FSP and PR could be derived from lunar equivalents built for and tested on the Moon to gain experience before an eventual Mars mission. To best balance these competing constraints and challenges, the resulting multi-phase scheme, depicted in Figure 4, would consist of three 25 t landers. The first lander, shown left in the image, would deliver the MAV propellant, FSP, and a robotic surface mobility system. The second lander, shown center, would deliver a partially fueled MAV, which would be robotically topped-off with propellant before the crew arrives on the third lander, shown on the right. Crew would live in and work from a pressurized rover, also delivered on the third lander, as they explore the martian surface, returning to orbit aboard the MAV for rendezvous with the Mars transportation system. 5. SHORT STAY MISSION OPERATIONS In this concept, a human Mars campaign might begin up to 10 years before \u201cboots",
+      "normal day and night operations is documented in the full DRA 5.0 report [1]. The habitat power estimate is a modified lunar concept that has been scaled for Mars operations. Power systems were sized for a 12-kWe day/night load for the habitat when using the ISRU- produced O 2 supply. Additional habitat power would be required for closed-loop air revitalization. The ISRU plant, which is making ascent stage O 2 propellant, is the dominant power requirement at 25 kWe operating continuously. After propellant production has been completed, most of the power demands are in support of nominal outpost operation, including habitats, logistics systems, rovers, scientific systems, and ascent stage keep-alive power. Thus, a power system that is sized to meet the ISRU consumable production requirements would have ample power available for crew outpost operations. Mobile Surface Power System In addition to the main base power system, options were looked at for powering the surface mobility systems (rovers). The reference \u201cCommuter\u201d strategy has two small pressurized rovers that would support a crew of two and traverse 100 km in 15 days. A nominal drive time was assumed to be 5 hours each day, which dictated a speed of 3 km/hr to"
+    ],
+    "retrieved": [
+      {
+        "title": "NASA\u2019s Strategic Analysis Cycle 2021 (SAC21) Human Mars Architecture",
+        "page": 2,
+        "report_id": "20210026448"
+      },
+      {
+        "title": "NASA\u2019s Strategic Analysis Cycle 2021 (SAC21) Human Mars Architecture",
+        "page": 2,
+        "report_id": "20210026448"
+      },
+      {
+        "title": "Human Exploration of Mars Design Reference Architecture 5.0",
+        "page": 20,
+        "report_id": "20090040343"
+      },
+      {
+        "title": "NASA\u2019s Strategic Analysis Cycle 2021 (SAC21) Human Mars Architecture",
+        "page": 4,
+        "report_id": "20210026448"
+      },
+      {
+        "title": "NASA\u2019s Strategic Analysis Cycle 2021 (SAC21) Human Mars Architecture",
+        "page": 4,
+        "report_id": "20210026448"
+      },
+      {
+        "title": "NASA\u2019s Strategic Analysis Cycle 2021 (SAC21) Human Mars Architecture",
+        "page": 2,
+        "report_id": "20210026448"
+      },
+      {
+        "title": "NASA\u2019s Strategic Analysis Cycle 2021 (SAC21) Human Mars Architecture",
+        "page": 4,
+        "report_id": "20210026448"
+      },
+      {
+        "title": "Human Exploration of Mars Design Reference Architecture 5.0",
+        "page": 21,
+        "report_id": "20090040343"
+      }
+    ],
+    "cited": [
+      {
+        "title": "NASA\u2019s Strategic Analysis Cycle 2021 (SAC21) Human Mars Architecture",
+        "page": 2,
+        "report_id": "20210026448"
+      },
+      {
+        "title": "NASA\u2019s Strategic Analysis Cycle 2021 (SAC21) Human Mars Architecture",
+        "page": 4,
+        "report_id": "20210026448"
+      },
+      {
+        "title": "NASA\u2019s Strategic Analysis Cycle 2021 (SAC21) Human Mars Architecture",
+        "page": 4,
+        "report_id": "20210026448"
+      }
+    ],
+    "latency_seconds": 75.37,
+    "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "id": 8,
+    "question": "What is a Mars portable life support system?",
+    "ground_truth": "The backpack part of a spacesuit that supplies oxygen, removes carbon dioxide and manages heat and humidity so astronauts can work outside on Mars.",
+    "answerable": true,
+    "answer": "A Mars Portable Life Support System (PLSS) is part of an overall Mars spacesuit portfolio\u2014specifically designed for a Mars Exploration Extravehicular Mobility Unit (MxEMU)\u2014that supports extravehicular activities (EVAs) on Mars [1, 3, 4, 6]. Because the unique Martian environment features a 95% carbon dioxide atmosphere at roughly 0.15 psia, low atmospheric temperatures down to -143\u00b0C, large temperature fluctuations, storms, seasonal weather changes, and a 3/8th gravity field (0.38 g), the Mars PLSS requires modifications to the NASA baseline exploration PLSS (xPLSS) design [1, 2, 3, 4, 8]. \n\nThe Mars PLSS supports EVAs through eight major functions: \n1. Oxygen storage and supply (gaseous oxygen) [4]\n2. Ventilation (liquid cooling ventilation garment) [4]\n3. Flow drive (centrifugal fans for the vent loop and pumps for the water loop) [4]\n4. Carbon dioxide removal (rapid cycle amine) [4]\n5. Humidity removal (rapid cycle amine) [4]\n6. Thermal control (spacesuit water membrane evaporator) [4]\n7. Trace contaminant control (activated charcoal beds) [4]\n8. Power and energy storage (lithium-ion batteries) [4]\n\nUnlike systems built for a vacuum, the Mars PLSS architecture is optimized for mass and volume by incorporating characteristics like regenerability and does not rely on venting to vacuum [1, 2, 8].",
+    "declined": false,
+    "contexts": [
+      "International Conference on Environmental Systems 2 I. Introduction This paper introduces a new development effort towards the design and building of a Mars Exploration Extravehicular Mobility Unit (MxEMU). The Mars Portable Life Support System (PLSS) is being studied as part of an overall Mars spacesuit portfolio which includes Pressure Garment System (PGS) elements and human physiology testing. The Mars PLSS effort has undergone an initial schematic study [1] and is entering into performance studies and component development in preparation for the assembly of an integrated testbed. The unique environment on Mars poses new challenges for suit design, most notably the low atmospheric temperatures and large temperature fluctuations, the 3/8th gravity field, and the 95% carbon dioxide (CO2) atmosphere at ~ 0.15 psia. As there have only been a handful of spacesuit development projects, this paper gives a review of historical EMU architectures to demonstrate design evolution and call attention to legacy elements that may or may not be applicable on Mars. Schematic recommendations from the initial study are provided, with a list of upcoming hardware development plans concerning the components considered most feasible for the Mars PLSS. The Mars mission architecture and PLSS design plan has been provided to highlight",
+      "LOX = liquid oxygen xPLSS = Exploration Portable Life Support MAIT = Mission Analysis and Integration System Tool MxPLSS = Mars Exploration Portable Life Support System I. Introduction HE Mars environment poses unique challenges for PLSS technologies that necessitate modifications to the NASA baseline exploration PLSS (xPLSS) design. Some of the major challenges regarding extravehicular activities (EVAs) on Mars include the following: \u2022 Low atmospheric pressure of ~0.15 psia \u2022 Gaseous atmosphere with a composition of 95% carbon dioxide \u2022 Storms and seasonal weather changes \u2022 Mass restrictions due to 0.38 g gravity These obstacles call for a Mars xPLSS (MxPLSS) architecture that does not rely on venting to vacuum, maintains reliability in dynamic conditions, and is optimized for mass and volume by incorporating characteristics like regenerability. Schematic studies such as those for the Space Shuttle program, the Apollo program, and the most recent Constellation Space Suit Element (CSSE) [1] have historically been used to accomplish this type of curated PLSS design and have provided guidelines for the MxPLSS roadmap [2]. In congruence with the NASA Moon to Mars [3] timeline, the Mars Schematic Study was conducted over fiscal year (FY) 2024 and 2025 to direct the MxPLSS prototype design",
+      "Introduction \u2022 A new development effort for a Mars Exploration Extravehicular Mobility Unit (MxEMU) has started with the Mars Portable Life Support System (PLSS) \u2022 The MxEMU will build off the existing government reference design, the Exploration Extravehicular Mobility Unit (xEMU) \u2022 The environment on Mars will present a unique challenge: \u2013 Carbon dioxide atmosphere: 0.15psia \u2013 3/8th gravity field (2.2x Lunar gravity) \u2013 Cold atmospheric temperatures: (down to - 143\u00b0C (130\u00b0K)) \u2013 Extended mission profile and long quiescent period for transit \u2022 Each environmental consideration presents a new challenge for a Mars suit which will require a testbed and analysis to consider options International Conference on Environmental Systems ICES-2026-126 2",
+      "Portable Life Support System (PLSS) 2 \u2022 The PLSS supports extravehicular activities (EVAs) through 8 major functions \u2022 Oxygen storage and supply : Gaseous oxygen (GOX) \u2022 Ventilation : Liquid cooling ventilation garment (LCVG) \u2022 Flow drive : Centrifugal fans (vent loop) & pumps (water loop) \u2022 Carbon dioxide removal : Rapid cycle amine (RCA) \u2022 Humidity removal : Rapid cycle amine (RCA) \u2022 Thermal control : Spacesuit water membrane evaporator (SWME) \u2022 Trace contaminant control : Activated charcoal beds \u2022 Power and energy storage : Lithium-ion batteries \u2022 PLSS schematic studies have guided PLSS technology development and PLSS designs since the Apollo program, identifying the best path forward each time \u2022 In the early 2000s, the Constellation Space Suit Element PLSS schematic study was conducted, resulting in what is now the Exploration PLSS (xPLSS) \u2022 To achieve Mars surface exploration, modifications to the current xPLSS must be made \u2022 This schematic study investigates promising technologies for all major functions of the PLSS \u2022 Providing schematic recommendations for the Mars exploration PLSS (MxPLSS)",
+      "Mars. Schematic recommendations from the initial study are provided, with a list of upcoming hardware development plans concerning the components considered most feasible for the Mars PLSS. The Mars mission architecture and PLSS design plan has been provided to highlight driving factors in planning and fabrication. II. Historical Suit Development Prior to delving into the Mars development effort, it is important to understand previous suit designs. A Mars suit will lean on designs and lessons learned from all suit development projects. A. Apollo The Apollo Extravehicular Mobility Unit (EMU) enabled astronauts to survive and work in the vacuum of space and on the Lunar surface. It consisted of three major subsystems: the Pressure Garment Assembly (PGA), the Portable Life Support System (PLSS), and the Oxygen Purge System (OPS). The PGA was an anthropomorphic suit designed to maintain a pressurized environment while allowing mobility for mission tasks. It featured a neoprene-coated nylon bladder for pressure retention, a nylon restraint layer for structural integrity, and convoluted joints for flexibility. An integrated thermal micrometeoroid garment (ITMG) provided protection against extreme temperatures and micrometeoroid impacts. The ITMG included multi-layer insulation (MLI) which offers significant insulation in a vacuum environment; however, this type of insulation",
+      "55th International Conference on Environmental Systems ICES-2026-126 12-16 July 2026, Rio Grande, Puerto Rico Trade names and trademarks and company names are used in this report for identification only. Their usage does not constitute an official endorsement, either expressed or implied, by the National Aeronautics and Space Administration. Mars Portable Life Support System Status and Plan Ryan Ogilvie1 and Cinda Chullen2 NASA Johnson Space Center, Houston, Texas, 77058 Lawrence Barrett, Ph.D.3 and Madeleine Oliver, Ph.D.4 and Bruce Conger5 Amentum, Houston TX, 77078 To get from Moon to Mars, development of a Mars-centered spacesuit to support extravehicular activity (EVA) must begin now. In an effort toward this goal, setup of a Mars Portable Life Support System (PLSS) team to evaluate schematics for a Mars Extravehicular Exploration Mobility Unit (MxEMU) is underway. As part of a previous study, a wide range of potential architectures were evaluated and compared to determine leading options for a Martian PLSS. Going forward, these schematics will inform technology development, testing, detailed sizing analysis, and feasibility studies. A Mars PLSS Test Bed will be developed and used to assess the schematics on a breadboard style configuration of components. Following results of the test bed, a packaged Design Verification",
+      "2 International Conference on Environmental Systems CHXR = condensing heat exchanger PCM = phase change material CO2 = carbon dioxide PLSS = Portable Life Support System CSSE = Constellation Space Suit Element POR = primary oxygen regulator EMU = Extravehicular Mobility Unit POV = primary oxygen vessel ESM = equivalent system mass PTCL = primary thermal control loop EVA = extravehicular activity RCA = rapid cycle amine FW = feedwater SG = sweep gas FY = fiscal year SOR = secondary oxygen regulator GOX = gaseous oxygen SOV = secondary oxygen vessel GUS = Guided Utility Sizer SWME = spacesuit water membrane HFM = hollow fiber membrane evaporator H2O = water TCC = trace contaminant control HP = heat pump TRL = technology readiness level HX = heat exchanger VBA = Visual Basic for Applications LCVG = liquid cooling ventilation garment VE EC = variable emissivity electrochromic Li-ion = lithium-ion xEMU = Exploration Extravehicular Mobility LiOH = lithium hydroxide Unit LOX = liquid oxygen xPLSS = Exploration Portable Life Support MAIT = Mission Analysis and Integration System Tool MxPLSS = Mars Exploration Portable Life Support System I. Introduction HE Mars environment poses unique challenges for PLSS technologies that necessitate modifications",
+      "55th International Conference on Environmental Systems ICES-2026-158 12-16 July 2026, Rio Grande, Puerto Rico Trade names and trademarks and company names are used in this report for identification only. Their usage does not constitute an official endorsement, either expressed or implied, by the National Aeronautics and Space Administration. Mars Exploration Portable Life Support System Schematic Study: Architecture Down-Selection Madeleine C. Oliver, Ph.D.1, Emma J. Quick2, Dana M. Masangkay, Ph.D.3, Isabella M. LeJeune-Bolivar4, Lawrence W. Barrett, Ph.D.5, and Bruce C. Conger6 Amentum, Houston, Texas, 77058 Noah L. Andersen7 HX5, LLC, 2224 Bay Area Blvd, Houston, TX, 77058 Cinda Chullen8, Colin Campbell9, and Ryan Ogilvie10 NASA Johnson Space Center, Houston, TX, 77058 Previous NASA Portable Life Support System (PLSS) designs have been focused on assisting extravehicular activity (EVA) in low gravity, vacuum environments. Development of a Mars Exploration Portable Life Support System (MxPLSS) therefore requires modifications to the baseline PLSS design that accommodate the unique operational conditions characterizing EVAs on Mars. In our previous study presented at the International Conference on Environmental Systems (ICES) 2025, paper number ICES-2025-90, a blank sheet approach pinpointed technologies with the potential to satisfy each major function of the MxPLSS. A comprehensive list of equipment was compiled,"
+    ],
+    "retrieved": [
+      {
+        "title": "Mars Portable Life Support System Status and Plan",
+        "page": 2,
+        "report_id": "20260003024"
+      },
+      {
+        "title": "Mars Exploration Portable Life Support System Schematic Study: Architecture Down-Selection",
+        "page": 2,
+        "report_id": "20260002884"
+      },
+      {
+        "title": "Mars Portable Life Support System Status and Plan",
+        "page": 2,
+        "report_id": "20260005404"
+      },
+      {
+        "title": "Mars Exploration Portable Life Support System Schematic Study: Architecture Down-Selection",
+        "page": 2,
+        "report_id": "20260005204"
+      },
+      {
+        "title": "Mars Portable Life Support System Status and Plan",
+        "page": 2,
+        "report_id": "20260003024"
+      },
+      {
+        "title": "Mars Portable Life Support System Status and Plan",
+        "page": 1,
+        "report_id": "20260003024"
+      },
+      {
+        "title": "Mars Exploration Portable Life Support System Schematic Study: Architecture Down-Selection",
+        "page": 2,
+        "report_id": "20260002884"
+      },
+      {
+        "title": "Mars Exploration Portable Life Support System Schematic Study: Architecture Down-Selection",
+        "page": 1,
+        "report_id": "20260002884"
+      }
+    ],
+    "cited": [
+      {
+        "title": "Mars Portable Life Support System Status and Plan",
+        "page": 2,
+        "report_id": "20260003024"
+      },
+      {
+        "title": "Mars Exploration Portable Life Support System Schematic Study: Architecture Down-Selection",
+        "page": 2,
+        "report_id": "20260002884"
+      },
+      {
+        "title": "Mars Portable Life Support System Status and Plan",
+        "page": 2,
+        "report_id": "20260005404"
+      },
+      {
+        "title": "Mars Exploration Portable Life Support System Schematic Study: Architecture Down-Selection",
+        "page": 2,
+        "report_id": "20260005204"
+      },
+      {
+        "title": "Mars Portable Life Support System Status and Plan",
+        "page": 1,
+        "report_id": "20260003024"
+      },
+      {
+        "title": "Mars Exploration Portable Life Support System Schematic Study: Architecture Down-Selection",
+        "page": 1,
+        "report_id": "20260002884"
+      }
+    ],
+    "latency_seconds": 14.47,
+    "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "id": 9,
+    "question": "What is a Mars transit habitat?",
+    "ground_truth": "NASA\u2019s Transit Habitat (TH) is designed to support astronauts during long-duration missions to Mars and will first be tested in lunar orbit to demonstrate essential spaceflight technologies.",
+    "answerable": true,
+    "answer": "A Mars Transit Habitat is a vehicle and architectural concept designed to support a crew of four for up to 1,200 days on a journey from Earth to Mars with a safe return [1]. It functions as a free-flying vehicle utilizing a pressure-fed hypergolic bi-propellant reaction control system, allowing it to dock and undock with architectural elements such as the Gateway, Orion, logistics modules, Mars propulsion systems, and ascent/descent systems [2]. The habitat's design concepts utilize contractor habitat modules originally proposed for the lunar Gateway, and it is intended to support long-term deep space operations, autonomous and remote operations, and mission shakedown cruises in cis-lunar space [1, 7].",
+    "declined": false,
+    "contexts": [
+      "12 REFERENCES............................................................. 12 BIOGRAPHY .............................................................. 12 1. INTRODUCTION The Gateway is an important next-step toward future human missions to Mars. It will provide an outpost in deep space for development and testing of technologies and systems critical for safe operations in deep space, and for operations between Gateway in lunar orbit, and the surface. The combination of Gateway and these missions to the Moon will demonstrate the basic operational capabilities for all Mars systems and provide a means to utilize cost-effective, reusable vehicles for ongoing missions to both the Moon and Mars. To confirm the extensibility of Gateway to future Mars missions, this study developed conceptual designs for several Mars Transit Habitat configurations utilizing the proposed contractor habitat modules from Gateway as the primary pressure vessel volumes. Assumptions for NASA\u2019s baseline design used in the comparison were taken from the latest refinement study technical paper \u201cTransit Habitat Design for Mars Exploration\u201d [1], which describes the vehicle designs for a Mars Transit Habitat that can support a crew of four for up to 1,200 days in a journey from Earth to Mars with a safe return. 2. GATEWAY AND MARS TRANSIT HABITATS Four configurations were developed from the NextSTEP contractor concepts",
+      "1 DISTRIBUTION STATEMENT: Statement A: Approved for public release; distribution is unlimited. PROPULSION SYSTEM ARCHITECTURE REFUELING CAPABILITY ASSESSMENT FOR A MARS TRANSIT HABITAT CONCEPT Huu P. Trinh, Christopher G. Popp, Brad M. Addona NASA Marshall Space Flight Center, Huntsville, Alabama Charles W. Pierce \u2013 Jacobs Space Exploration Group, Huntsville, Alabama ABSTRACT A pressure-fed hypergolic bi-propellant system is the assumed propulsion approach for the Reaction Control System (RCS) used by the Mars Transit Habitat (TH), an architectural concept being traded within the NASA Moon to Mars architecture. The propellants under consideration are Monomethyl Hydrazine (MMH) and Mixed Oxides of Nitrogen with 3% Nitric Oxide (MON3), with helium pressurant. The RCS propulsion would provide the capability for the TH to be a free-flying vehicle, which is necessary to support its notional operation across the Moon to Mars architecture. The TH concept would dock/undock with other Moon to Mars architectural elements including Gateway, Orion, Logistics Modules, Mars Propulsion System and Mars Assent/Decent Systems. When docked at Gateway, the TH propulsion system may augment Gateway stack control to achieve the required slew rates. To be capable of supporting operations over a presumed 15-year vehicle life, the TH concept assumes a refueling capability for the",
+      "Transit Habitat that can support a crew of four for up to 1,200 days in a journey from Earth to Mars with a safe return. 2. GATEWAY AND MARS TRANSIT HABITATS Four configurations were developed from the NextSTEP contractor concepts to compare with the latest MIG Baseline Configuration concept for the Mars Transit Habitat. These configurations use habitat modules proposed by Bigelow Aerospace, Sierra Nevada, the Boeing Company and Lockheed Martin, and Northrop Grumman. [2] The MIG Baseline Configuration outfitting mass details were input into a habitat sizing tool under development in the Advanced Concepts Office (ACO) and calibrated to include the internal systems required for a Mars Transit Habitat. Each of the alternate contractor configurations were then sized using the same settings, but varying only the parameters unique to each of the contractor modules. This ensured that a reasonable comparison between configurations was being made without having to delve into proprietary data from each contractor. MIG Baseline Configuration The MIG Baseline Configuration, shown in Figures 1, is a single, large habitat module attached to a Hybrid propulsion",
+      "7 5. FINDINGS AND RECOMMENDATIONS The authors of this paper set out to examine the extensibility of the planned Gateway outpost to future Mars missions, in particular to the Mars Transit Habitat. It was found that any of the Gateway configurations proposed so far do have significant extensibility to parts of the Mars architecture and that some are particularly applicable to the Mars Transit Habitat. Configurations The best Mars Transit Habitat configurations include the original monolithic MIG Baseline Configuration, the Bigelow Aerospace inflatable module, and the Sierra Nevada LIFE inflatable module with one attached logistics element. All four configurations evaluated are possible for a shakedown cruise given adequate volume and propulsion capabilities to demonstrate key life support systems. In addition, the Boeing Company, Lockheed Martin, and Northrop Grumman-proposed Gateway configurations have applicability to all the other modules required for the Mars architecture, including surface habitats, logistics, descent and ascent vehicles, and surface pressurized rovers. Multiple modules offered advantages too, including the possibility of dropping off unused logistics modules in Mars orbit for use in future missions, and the development of safe haven configurations to protect the crew from pressure loss in a single module. Propulsion Although the Hybrid SEP propulsion",
+      "12 ACKNOWLEDGEMENTS The authors would like to thank the Advanced Concepts Office design team for their contribution to this study. That team included Mike Baysinger, Quincy Bean, Pete Capizzo, Olivier Demaneuf, Leo Fabisinski, Sharon Fincher, Jay Garcia, Mark Ibekwe, Alan Philips, Justin Rowe, Steven Sutherlin, Dan Thomas, and the study lead and co-author, David Smitherman. REFERENCES [1] Polsgrove, T., J. Waggoner, D. Smitherman, T. Percy, R. Howard, \u201cTransit Habitat Design for Mars Exploration\u201d, Paper No. AIAA-2018-5143, AIAA Space and Astronautics Forum and Exposition, Orlando FL, September 2018. [2] NASA.gov website: \u201cMoon to Mars, NASA Begins Testing Habitation Prototypes\u201d, https://www.nasa.gov/ feature/nasa-begins-testing-habitation-prototypes, visited September 24, 2019. [3] Simon, M., D. Smitherman, et al, \u201cNASA\u2019s Advanced Exploration Systems Mars Transit Habitat Refinement Point of Departure Design,\u201d IEEE Aerospace 2017. [4] Smitherman, D., T. Polsgrove, J. Rowe, \u201cSafe Haven Configurations for Deep Space Transit Habitats,\u201d Paper No. 2017-5285, AIAA Space Forum, Orlando FL, September 2017. BIOGRAPHY David Smitherman is a technical manager of future projects for the Advanced Concept Office at the NASA Marshall Space Flight Center in Huntsville Alabama. His work focuses on space habitats, lunar and Mars habitation systems, space transportation infrastructures, and overall mission planning. He worked as an architect in",
+      "lander, as they explore the martian surface, returning to orbit aboard the MAV for rendezvous with the Mars transportation system. 5. SHORT STAY MISSION OPERATIONS In this concept, a human Mars campaign might begin up to 10 years before \u201cboots on Mars,\u201d with launch of a Transit Habitat (TH). After assembly and outfitting at Gateway, the fully assembled TH might spend several years in cis-lunar space, undergoing crewed test and evaluation and serving as a Mars mission analog to validate the long habitation durations needed for the Mars mission. Three landers, each with ~25-ton payload capacity, called Mars Descent Systems (MDS) would be launched, aggregated with their Mars transportation stage(s), and fueled in cis-lunar space before departing for Mars orbit. Landers 1 and 2 launch and depart Earth up to six years prior to crew arrival at Mars while the third lander launches and begins its transit to Mars about three years prior to crew arrival. The three landers and their cargo would be delivered via Liquid Oxygen (LOX)/Liquid Methane (LCH4) chemical stages on an energy-efficient, conjunction-class trajectory to Mars vicinity. The third lander, carrying a pressurized rover, a docking adapter, and crew consumables, would loiter in a 5-sol Mars",
+      "1 Gateway Lunar Habitat Modules as the Basis for a Modular Mars Transit Habitat David Smitherman NASA Marshall Space Flight Center ED04 Advanced Concepts Office Huntsville, AL 35812 david.smitherman@nasa.gov Andrew Schnell NASA Marshall Space Flight Center ST24 Science and Technology Office Huntsville, AL 35812 andrew.schnell@nasa.gov Abstract\u2014This paper provides a summary of the results from a recent concept study of various configurations for a Mars Transit Habitat. The designs considered are composed of modules based on published contractor concepts proposed for the lunar Gateway through NASA\u2019s NextSTEP program. Using these Gateway concepts as a starting point for the design of a Mars Transit Habitat has potential advantages. Both Gateway and Mars Transit Habitats will have similar requirements for long-term operations in deep space, autonomous and remote operations when the crew is not onboard, and similar requirements for transferring crew to and from a planetary surface\u2014the Moon and Mars respectively. The contractor designs for Gateway were traded against a monolithic transit habitat previously proposed by NASA\u2019s Mars Integration Group. In addition, these concepts were considered for a \u201cshakedown\u201d mission for the transit habitat hardware in cislunar space to build confidence in new systems, including the advanced environmental control and life support systems",
+      "the Bigelow Aerospace configuration resulting in a mass of about 61mT. Like the Bigelow configuration, the mass growth is not considered significant, and the attached logistics module provides for some interesting options. For example, in a typical Mars mission there are about 300 - 500 days of logistics on board the habitat that are no longer needed when the crew returns from the surface of Mars. In this configuration it would be possible to leave this logistics in Mars orbit for future missions using the attached module. Another option is to use the logistics module as a 30-day safe haven for protection of the crew in the event of pressure loss in the inflatable structure. Various options for safe havens have been described in a previous technical paper for Mars Transit Habitats. [4] Figure 5. Sierra Nevada concept for Gateway. [2] Figure 6. NASA Mars Transit Vehicle concept utilizing a Sierra Nevada inflatable habitat module."
+    ],
+    "retrieved": [
+      {
+        "title": "Gateway Lunar Habitat Modules as the Basis for a Modular Mars Transit Habitat",
+        "page": 1,
+        "report_id": "20200002332"
+      },
+      {
+        "title": "Propulsion System Architecture Refueling Capability Assessment for A Mars Transit Habitat Concept",
+        "page": 1,
+        "report_id": "20240003278"
+      },
+      {
+        "title": "Gateway Lunar Habitat Modules as the Basis for a Modular Mars Transit Habitat",
+        "page": 1,
+        "report_id": "20200002332"
+      },
+      {
+        "title": "Gateway Lunar Habitat Modules as the Basis for a Modular Mars Transit Habitat",
+        "page": 7,
+        "report_id": "20200002332"
+      },
+      {
+        "title": "Gateway Lunar Habitat Modules as the Basis for a Modular Mars Transit Habitat",
+        "page": 12,
+        "report_id": "20200002332"
+      },
+      {
+        "title": "NASA\u2019s Strategic Analysis Cycle 2021 (SAC21) Human Mars Architecture",
+        "page": 4,
+        "report_id": "20210026448"
+      },
+      {
+        "title": "Gateway Lunar Habitat Modules as the Basis for a Modular Mars Transit Habitat",
+        "page": 1,
+        "report_id": "20200002332"
+      },
+      {
+        "title": "Gateway Lunar Habitat Modules as the Basis for a Modular Mars Transit Habitat",
+        "page": 3,
+        "report_id": "20200002332"
+      }
+    ],
+    "cited": [
+      {
+        "title": "Gateway Lunar Habitat Modules as the Basis for a Modular Mars Transit Habitat",
+        "page": 1,
+        "report_id": "20200002332"
+      },
+      {
+        "title": "Propulsion System Architecture Refueling Capability Assessment for A Mars Transit Habitat Concept",
+        "page": 1,
+        "report_id": "20240003278"
+      },
+      {
+        "title": "Gateway Lunar Habitat Modules as the Basis for a Modular Mars Transit Habitat",
+        "page": 1,
+        "report_id": "20200002332"
+      }
+    ],
+    "latency_seconds": 15.69,
+    "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "id": 10,
+    "question": "Who won the 2022 FIFA World Cup?",
+    "ground_truth": "",
+    "answerable": false,
+    "answer": "The reports do not contain enough information to answer this.",
+    "declined": true,
+    "contexts": [
+      "2039_01_02 2039_01_01 2039_01_01 2039_01_01 2039_10_01 2040_11_25 2040_10_01 2040_12_30 2040_12_30 2040_06_03 2040_05_10 2040_04_18 2040_06_16 2040_05_20 2040_05_04 2040_04_07 2040_03_07 2040_02_11 2041_01_31 2041_02_05 2041_01_29 2041_01_08 2041_01_01 2041_11_27 2042_06_13 2042_05_30 2042_04_29 2042_04_07 2042_03_06 2042_05_02 2042_04_03 2042_03_03 2042_01_16 2042_01_01 2043_03_16 2043_03_14 2043_02_23 2043_01_01 2043_12_29 2043_10_18 2044_11_26 2044_06_20 2044_05_27 2044_05_08 2044_04_15 2044_03_15 2044_04_27 2044_03_22 2044_02_13 2044_01_02 2044_01_01 2045_04_11 2045_04_05 2045_03_17 2045_02_02 2045_01_01 2046_06_29 2046_08_10 2046_05_19 2046_04_27 2046_03_18 2046_02_03 2046_03_03 2046_02_18 2046_01_01 2048_08_23 2048_08_17 2048_07_17 2.2519 1.8515 2.151 2.9983 2.5605 2.0702 3.2517 1.7257 2.1714 3.9202 2.6806 2.0483 3.7778 2.8373 2.1161 1.7054 1.6092 1.9207 2.5194 1.6034 1.6111 2.1638 3.3245 2.4996 3.5921 2.8059 2.3037 2.0334 2.0561 2.3159 2.0678 2.0896 2.3595 2.5849 2.0239 1.5006 1.8524 2.525 2.8463 2.7674 3.2277 3.5453 3.1303 2.7834 2.5785 2.6249 2.782 2.6932 2.7443 2.8485 2.9517 2.9723 2.2929 2.3087 2.7682 3.3116 3.6731 3.472 3.4386 3.4056 3.5138 3.528 3.5184 4.5866 3.3834 3.8036 3.6944 4.0905 1 2 3 4 5 6 7 8 9 10 11 400 450 500 550 600 650 700 750 800 850 900 950 1000 1050 1100 1150 1200 1250 E-\u00ad\u2010M Delta-\u00ad\u2010V (km/sec) Total Trip Time (days) Suggested use: Select Trip +me range of interest on Ver+cal axis, select dates and corresponding deltaVs of interest, then consult Summary Table in Appendix B for details HAT",
+      "2026_02_04 2026_04_30 2026_04_15 2025_12_05 2025_10_04 2026_09_30 2027_02_11 2027_03_20 2027_03_01 2027_02_25 2027_03_06 2027_02_16 2026_12_24 2026_06_19 2026_04_03 2026_10_07 2028_02_11 2028_02_01 2027_12_22 2027_09_22 2029_01_05 2029_03_13 2029_01_08 2028_11_20 2028_08_20 2028_08_01 2028_08_26 2028_07_31 2031_02_21 2032_02_05 2031_05_11 2031_09_14 2034_10_10 2034_09_16 2034_02_12 2034_04_27 2033_06_25 2034_02_03 2034_04_27 2034_11_08 2034_11_06 2034_10_08 2035_10_17 2035_07_25 2036_12_05 2036_11_23 2037_01_30 2036_12_07 2036_03_02 2036_04_15 2036_02_07 2036_03_26 2036_05_13 2036_05_01 2036_11_28 2037_02_08 2036_12_17 2036_10_25 4.0278 3.663 3.6783 4.084 4.0842 4.0267 4.2291 4.0324 4.0411 4.0674 4.0316 4.0309 4.0258 4.6887 4.7766 4.0773 4.0397 4.0518 4.0254 4.1334 4.4939 4.3265 4.5001 4.5897 4.5458 4.6335 4.4211 4.3744 4.54 4.0068 4.6599 4.2598 4.0737 4.0051 4.0411 3.6643 4.6701 4.048 3.6668 4.0511 4.0435 4.0736 3.8571 3.9576 3.7059 4.0184 3.6377 3.8985 4.0519 3.7634 4.1463 3.957 3.5883 3.5492 4.0245 3.6377 3.9149 4.0237 3.5 4 4.5 5 5.5 6 6.5 400 500 600 700 800 900 1000 Earth Sprial DeltaV (km/sec) Earth Spiral dura7on (days) Suggested use: Select Trip +me range of interest on Ver+cal axis, select dates and corresponding deltaVs of interest, then consult Summary Table in Appendix A for details HAT Cargo Mission: Earth Spriral Dura7on, DeltaV vs Launch Date -\u00ad\u2010 2026 to 2037 Range BOL pwr= 150 kW; 10% Esprl degrada7on; Ending C3= -\u00ad\u20102.0 km2/sec2 Spiral data taken from corresponding end-\u00ad\u2010to-\u00ad\u2010end scenario Earth Spiral",
+      "2026_02_04 2026_04_30 2026_04_15 2025_12_05 2025_10_04 2026_09_30 2027_02_11 2027_03_20 2027_03_01 2027_02_25 2027_03_06 2027_02_16 2026_12_24 2026_06_19 2026_04_03 2026_10_07 2028_02_11 2028_02_01 2027_12_22 2027_09_22 2029_01_05 2029_03_13 2029_01_08 2028_11_20 2028_08_20 2028_08_01 2028_08_26 2028_07_31 2031_02_21 2032_02_05 2031_05_11 2031_09_14 2034_10_10 2034_09_16 2034_02_12 2034_04_27 2033_06_25 2034_02_03 2034_04_27 2034_11_08 2034_11_06 2034_10_08 2035_10_17 2035_07_25 2036_12_05 2036_11_23 2037_01_30 2036_12_07 2036_03_02 2036_04_15 2036_02_07 2036_03_26 2036_05_13 2036_05_01 2036_11_28 2037_02_08 2036_12_17 2036_10_25 6.5777 5.4814 5.5436 6.5074 7.3415 7.0056 7.7289 7.2172 6.9894 7.3707 7.1482 7.1597 7.0229 9.4861 10.1758 7.321 7.0131 6.7901 7.0307 7.4829 8.3039 7.9414 8.3173 8.5107 8.546 8.7683 8.2891 8.159 8.404 6.3943 9.7178 7.8392 6.5669 6.9693 6.9905 5.4864 9.1274 6.8767 5.4969 6.699 6.7452 7.3107 6.0947 6.5963 5.6851 6.2759 5.485 6.04 6.8125 5.7698 7.5203 6.2659 5.1755 4.9141 6.2879 5.4946 6.0721 7.0655 4.5 5.5 6.5 7.5 8.5 9.5 10.5 11.5 12.5 13.5 14.5 15.5 1000 1100 1200 1300 1400 1500 1600 1700 1800 1900 2000 2100 Total DeltaV (km/sec) Total trip 4me (days) Suggested use: Select Trip +me range of interest on Ver+cal axis, select dates and corresponding deltaVs of interest, then consult Summary Table in Appendix A for details HAT Cargo Mission: Total Trip Time, DeltaV vs Launch Date -\u00ad\u2010 2026 to 2037 Range BOL pwr= 150 kW; 10% Esprl degrada4on; E-\u00ad\u2010M 1/r2 degrada4on; Mars",
+      "2028_03_26 2028_03_26 2028_03_12 2028_01_27 2028_01_01 2028_10_22 2028_12_04 2029_06_17 2029_05_25 2029_05_02 2029_06_03 2029_05_07 2029_04_21 2029_02_26 2029_02_16 2029_01_19 2029_01_01 2030_04_14 2030_04_01 2030_02_25 2030_01_01 2031_06_30 2031_08_05 2031_06_30 2031_06_02 2031_03_15 2031_03_20 2031_02_21 2031_01_14 2033_08_23 2034_03_19 2034_01_13 2034_01_27 2036_11_30 2036_11_26 2036_04_14 2036_03_23 2036_02_17 2036_04_09 2036_03_23 2037_01_02 2037_01_01 2037_01_01 2037_11_14 2037_09_23 2038_11_18 2038_12_27 2038_12_23 2038_12_19 2038_05_02 2038_04_02 2038_05_06 2038_04_26 2038_04_02 2038_03_16 2.5412 1.811 1.8572 2.4077 3.2041 2.7217 2.9682 3.4658 3.1653 2.9348 3.278 3.1053 3.1146 2.9716 4.7644 5.3362 3.2282 2.9554 2.7138 2.9672 3.3258 3.7782 3.5678 3.7921 3.8967 3.9778 4.1042 3.8452 3.7666 3.8289 2.3795 5.0205 3.5607 2.4723 2.9345 2.9198 1.8199 4.4283 2.809 1.8492 2.6208 2.6898 3.1946 2.2337 2.6317 1.97 2.2464 1.8419 2.1355 2.7383 2.0016 3.3356 2.2993 1.5848 1.3637 1 2 3 4 5 6 7 8 9 10 11 12 400 450 500 550 600 650 700 750 800 850 900 950 1000 1050 1100 1150 1200 1250 E-\u00ad\u2010M DeltaV (km/sec) E-\u00ad\u2010M trip 5me (days) Suggested use: Select Trip +me range of interest on Ver+cal axis, select dates and corresponding deltaVs of interest, then consult Summary Table in Appendix B for details HAT Cargo Mission: Earth-\u00ad\u2010Mars Trip Time, DeltaV vs Earth Escape Date -\u00ad\u2010 2028 to 2038 Range BOL pwr= 135 kW; E-\u00ad\u2010M 1/r2 degrada5on; Mars Vinf= 5.2",
+      "2026_02_04 2026_04_30 2026_04_15 2025_12_05 2025_10_04 2026_09_30 2027_02_11 2027_03_20 2027_03_01 2027_02_25 2027_03_06 2027_02_16 2026_12_24 2026_06_19 2026_04_03 2026_10_07 2028_02_11 2028_02_01 2027_12_22 2027_09_22 2029_01_05 2029_03_13 2029_01_08 2028_11_20 2028_08_20 2028_08_01 2028_08_26 2028_07_31 2031_02_21 2032_02_05 2031_05_11 2031_09_14 2034_10_10 2034_09_16 2034_02_12 2034_04_27 2033_06_25 2034_02_03 2034_04_27 2034_11_08 2034_11_06 2034_10_08 2035_10_17 2035_07_25 2036_12_05 2036_11_23 2037_01_30 2036_12_07 2036_03_02 2036_04_15 2036_02_07 2036_03_26 2036_05_13 2036_05_01 2036_11_28 2037_02_08 2036_12_17 2036_10_25 2037_02_23 2038_11_26 2038_06_27 2039_02_09 2038_12_12 2037_10_26 2038_03_15 2038_04_26 2037_12_18 2038_03_20 2038_05_01 2038_05_16 2038_04_18 2038_03_04 2038_12_09 2039_03_20 2039_03_13 2038_12_23 2038_09_05 2039_10_04 2040_01_11 2040_03_29 2040_03_30 2040_04_16 2040_03_10 2040_04_02 2040_04_07 2040_03_03 2039_12_04 2039_11_08 2041_03_27 2041_04_25 2041_03_31 2040_11_08 2041_10_28 2041_08_13 2042_08_27 2042_02_01 2042_03_24 2042_03_07 2042_02_23 2042_01_17 2042_02_28 2042_01_06 2041_12_11 2041_11_01 2041_10_27 2043_02_08 2043_03_07 2043_02_14 2042_12_05 2042_09_23 2044_01_21 2044_04_01 2044_01_28 2044_01_12 2043_11_14 2043_09_29 2043_10_29 2043_06_23 2043_09_16 2046_02_25 2046_02_28 2045_12_05 1300 1400 1500 1600 1700 1800 1900 2000 2100 Total Trip Time (days) Suggested use: Select Trip +me range of interest on Ver+cal axis, select dates of interest, then consult Summary Table in Appendix A for details HAT Cargo Mission: Total Trip Time vs Launch Date -\u00ad\u2010 2026 to 2046 Range BOL pwr= 150 kW; 10% Esprl degradaPon; E-\u00ad\u2010M 1/r2 degradaPon; Mars Vinf= 5.2 km/sec; Payload= 50 mT Figure 6: EEO to Mars - Complete Launch Time Span:",
+      "2028_03_26 2028_03_26 2028_03_12 2028_01_27 2028_01_01 2028_10_22 2028_12_04 2029_06_17 2029_05_25 2029_05_02 2029_06_03 2029_05_07 2029_04_21 2029_02_26 2029_02_16 2029_01_19 2029_01_01 2030_04_14 2030_04_01 2030_02_25 2030_01_01 2031_06_30 2031_08_05 2031_06_30 2031_06_02 2031_03_15 2031_03_20 2031_02_21 2031_01_14 2033_08_23 2034_03_19 2034_01_13 2034_01_27 2036_11_30 2036_11_26 2036_04_14 2036_03_23 2036_02_17 2036_04_09 2036_03_23 2037_01_02 2037_01_01 2037_01_01 2037_11_14 2037_09_23 2038_11_18 2038_12_27 2038_12_23 2038_12_19 2038_05_02 2038_04_02 2038_05_06 2038_04_26 2038_04_02 2038_03_16 2039_01_02 2039_01_01 2039_01_01 2039_01_01 2039_10_01 2040_11_25 2040_10_01 2040_12_30 2040_12_30 2040_06_03 2040_05_10 2040_04_18 2040_06_16 2040_05_20 2040_05_04 2040_04_07 2040_03_07 2040_02_11 2041_01_31 2041_02_05 2041_01_29 2041_01_08 2041_01_01 2041_11_27 2042_06_13 2042_05_30 2042_04_29 2042_04_07 2042_03_06 2042_05_02 2042_04_03 2042_03_03 2042_01_16 2042_01_01 2043_03_16 2043_03_14 2043_02_23 2043_01_01 2043_12_29 2043_10_18 2044_11_26 2044_06_20 2044_05_27 2044_05_08 2044_04_15 2044_03_15 2044_04_27 2044_03_22 2044_02_13 2044_01_02 2044_01_01 2045_04_11 2045_04_05 2045_03_17 2045_02_02 2045_01_01 2046_06_29 2046_08_10 2046_05_19 2046_04_27 2046_03_18 2046_02_03 2046_03_03 2046_02_18 2046_01_01 2048_08_23 2048_08_17 2048_07_17 600 700 800 900 1000 1100 1200 1300 E-\u00ad\u2010M Trip Time (days) Suggested use: Select Trip +me range of interest on Ver+cal axis, select dates of interest, then consult Summary Table in Appendix B for details HAT Cargo Mission: Earth-\u00ad\u2010Mars Trip Time vs Earth Escape Date -\u00ad\u2010 2028 to 2048 Range BOL pwr= 135 kW; E-\u00ad\u2010M 1/r2 degradaPon; Mars Vinf= 5.2 km/sec; Payload= 50 mT Figure 12: Earth Escape to Mars - Complete Launch Time Span: 2028",
+      "Esprl: pwr: 150.0 m0: 72334.2 Start 2027_03_06 End 2029_03_10 mf: 63598.9 trip: 735.1 mp: 8735.4 dv: 4.0316 E-M: pwr: 135.0 m0: 63598.9 Earth 2029_05_09 Mars 2032_01_09 mf: 57613.7 trip: 975.0 mp: 5985.2 dv: 3.1166 E_Vinf: 1.4142 M_Vinf: 5.2000 s/c: 7613.7 p/l: 50000.0 Ttrip: 1710.1 Tmp: 14720.5 Tdv: 7.1482 Esprl: pwr: 150.0 m0: 72362.4 Start 2027_02_16 End 2029_02_21 mf: 63625.1 trip: 735.3 mp: 8737.3 dv: 4.0309 E-M: pwr: 135.0 m0: 63625.1 Earth 2029_04_22 Mars 2032_01_29 mf: 57615.2 trip: 1012.5 mp: 6009.9 dv: 3.1288 E_Vinf: 1.4142 M_Vinf: 5.2000 s/c: 7615.2 p/l: 50000.0 Ttrip: 1747.8 Tmp: 14747.3 Tdv: 7.1597 Esprl: pwr: 150.0 m0: 72126.9 Start 2026_12_24 End 2028_12_30 mf: 63343.0 trip: 736.4 mp: 8783.9 dv: 4.0258 E-M: pwr: 135.0 m0: 63343.0 Earth 2029_02_28 Mars 2032_01_14 mf: 57600.0 trip: 1050.0 mp: 5743.0 dv: 2.9970 E_Vinf: 1.4142 M_Vinf: 5.2000 s/c: 7600.0 p/l: 50000.0 Ttrip: 1786.4 Tmp: 14526.9 Tdv: 7.0229 Esprl: pwr: 150.0 m0: 78266.0 Start 2026_06_19 End 2028_12_18 mf: 67439.9 trip: 913.8 mp: 10826.2 dv: 4.6887 E-M: pwr: 135.0 m0: 67439.9 Earth 2029_02_16 Mars 2032_02_08 mf: 57922.1 trip: 1087.5 mp: 9517.7 dv: 4.7974 E_Vinf: 1.4142 M_Vinf: 5.2000 s/c: 7922.1 p/l: 50000.0 Ttrip: 2001.3 Tmp: 20343.9 Tdv: 9.4861 Esprl: pwr: 150.0 m0: 80178.3 Start 2026_04_03 End",
+      "Earth 2028_10_22 Mars 2031_10_14 mf: 57087.6 trip: 1087.5 mp: 5146.2 dv: 2.7217 E_Vinf: 1.4142 M_Vinf: 5.2000 s/c: 7087.6 p/l: 50000.0 Ttrip: 1087.5 Tmp: 5146.2 Tdv: 2.7217 E-M: pwr: 135.0 m0: 62752.0 Earth 2028_12_04 Mars 2032_01_03 mf: 57114.7 trip: 1125.0 mp: 5637.3 dv: 2.9682 E_Vinf: 1.4142 M_Vinf: 5.2000 s/c: 7114.7 p/l: 50000.0 Ttrip: 1125.0 Tmp: 5637.3 Tdv: 2.9682 E-M: pwr: 135.0 m0: 63812.0 Earth 2029_06_17 Mars 2031_09_20 mf: 57170.1 trip: 825.0 mp: 6641.8 dv: 3.4658 E_Vinf: 1.4142 M_Vinf: 5.2000 s/c: 7170.1 p/l: 50000.0 Ttrip: 825.0 Tmp: 6641.8 Tdv: 3.4658 E-M: pwr: 135.0 m0: 63169.6 Earth 2029_05_25 Mars 2031_10_04 mf: 57136.5 trip: 862.5 mp: 6033.1 dv: 3.1653 E_Vinf: 1.4142 M_Vinf: 5.2000 s/c: 7136.5 p/l: 50000.0 Ttrip: 862.5 Tmp: 6033.1 Tdv: 3.1653 E-M: pwr: 135.0 m0: 62681.5 Earth 2029_05_02 Mars 2031_10_19 mf: 57111.0 trip: 900.0 mp: 5570.5 dv: 2.9348 E_Vinf: 1.4142 M_Vinf: 5.2000 s/c: 7111.0 p/l: 50000.0 Ttrip: 900.0 Tmp: 5570.5 Tdv: 2.9348 E-M: pwr: 135.0 m0: 63409.6 Earth 2029_06_03 Mars 2031_12_27 mf: 57149.1 trip: 937.5 mp: 6260.6 dv: 3.2780 E_Vinf: 1.4142 M_Vinf: 5.2000 s/c: 7149.1 p/l: 50000.0 Ttrip: 937.5 Tmp: 6260.6 Tdv: 3.2780 E-M: pwr: 135.0 m0: 63042.0 Earth 2029_05_07 Mars 2032_01_07 mf: 57129.8 trip: 975.0 mp: 5912.2 dv: 3.1053 E_Vinf: 1.4142"
+    ],
+    "retrieved": [
+      {
+        "title": "Mission Design Considerations for Mars Cargo of the Human Spaceflight Architecture Team's Evolvable Mars Campaign",
+        "page": 19,
+        "report_id": "20160010261"
+      },
+      {
+        "title": "Mission Design Considerations for Mars Cargo of the Human Spaceflight Architecture Team's Evolvable Mars Campaign",
+        "page": 14,
+        "report_id": "20160010261"
+      },
+      {
+        "title": "Mission Design Considerations for Mars Cargo of the Human Spaceflight Architecture Team's Evolvable Mars Campaign",
+        "page": 12,
+        "report_id": "20160010261"
+      },
+      {
+        "title": "Mission Design Considerations for Mars Cargo of the Human Spaceflight Architecture Team's Evolvable Mars Campaign",
+        "page": 18,
+        "report_id": "20160010261"
+      },
+      {
+        "title": "Mission Design Considerations for Mars Cargo of the Human Spaceflight Architecture Team's Evolvable Mars Campaign",
+        "page": 11,
+        "report_id": "20160010261"
+      },
+      {
+        "title": "Mission Design Considerations for Mars Cargo of the Human Spaceflight Architecture Team's Evolvable Mars Campaign",
+        "page": 17,
+        "report_id": "20160010261"
+      },
+      {
+        "title": "Mission Design Considerations for Mars Cargo of the Human Spaceflight Architecture Team's Evolvable Mars Campaign",
+        "page": 22,
+        "report_id": "20160010261"
+      },
+      {
+        "title": "Mission Design Considerations for Mars Cargo of the Human Spaceflight Architecture Team's Evolvable Mars Campaign",
+        "page": 32,
+        "report_id": "20160010261"
+      }
+    ],
+    "cited": [],
+    "latency_seconds": 18.03,
+    "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "id": 11,
+    "question": "What is the weather on Mars today?",
+    "ground_truth": "",
+    "answerable": false,
+    "answer": "The reports do not contain enough information to answer this.",
+    "declined": true,
+    "contexts": [
+      "a gravity field of 0.38 g, which is 2.3 times that of lunar gravity (0.17 g). Previous suit designs have not considered this increase in gravity, so a re-emphasis on mass will be necessary to develop the suit for Mars. While the most recent xEMU suit design weighs 391 lbs (177 kg), it is estimated that the Mars suit will not be able to exceed 229 lbs (104 kg, the mass required to accommodate the physiological limitations of a 5th percentile crewmember) [2]. 2. Atmosphere The atmosphere on Mars is composed of 95% carbon dioxide, with trace levels of gases including nitrogen, argon, oxygen, and carbon monoxide [3]. The atmosphere is much thinner than Earth\u2019s, with a maximum density around 20 g/m3 and an average pressure of ~4.6 Torr. Atmospheric temperatures on Mars are also much colder than Earth\u2019s, averaging at -60\u00b0C. Wind speeds have been measured up to 50 m/sec (112 mph), but do not have the same impact as they would on Earth given the low atmospheric density [3]. Still, these high winds can lift significant amounts of dust, leading to dust storms that can cause strong diurnal radiative forcing of atmospheric temperature through enhanced heating and cooling",
+      "limited by the frost point of CO2 [3]. Due to its thin atmosphere, surface temperatures on Mars can get much warmer than atmospheric temperatures, with estimated values from the Viking Orbiter Infrared Thermal Mapper of up to 27\u00b0C [19]. The maximum diurnal near-surface temperature on Mars can vary up to ~60\u00b0C, compared to only ~30\u00b0C on Earth. The seasonal averages of surface air temperatures can vary up to 90\u00b0C in Martian polar regions [20],[21]. Temperatures are influenced by the presence of suspended dust, which is most prevalent during the Northern winter/Southern summer [17]. Absorption of solar radiation by dust increases average daily temperatures and temperature ranges of the atmosphere, while decreasing average daily temperatures of the surface [20]. Regions of higher elevation on Mars are generally colder, with temperature decreasing by approximately 1.5\u00b0C per kilometer of altitude [22]. Using 3D data for one Martian year from the JPL Mars GCM, worst-case hot (WCH) and worst-case cold (WCC) surface locations were identified at latitudes of -50, -25, 0, +25, and +50 using an assumed optical depth of 1.0 (moderately dusty atmosphere). Figure 4 shows an elevation map of Mars with red and blue markers indicating locations with the hottest and coldest",
+      "Climate Model (GCM) with an assumed optical depth of 1.0 (moderately dusty atmosphere). Locations where EVAs can take place on Mars may be limited by the atmospheric conditions that selected PLSS technologies can operate within. For instance, use of SWME technology for thermal control is contingent on low enough atmospheric pressure to allow water vapor venting to the surrounding environment. Accordingly, development of the first Mars suit will assume that landing sites for EVAs will be at locations where surface pressures do not exceed 7-8 Torr. In Figure 3, locations on Mars exceeding the 8 Torr pressure limit are colored red. Lowest Average Global Pressure Highest Average Global Pressure Figure 3. Pressure maps of Mars at times of year representing lowest and highest average global pressures. 3. Temperature The Martian environment is characterized by low temperatures ranging from -143\u00b0C in polar regions during the winter to 20\u00b0C near the equator during daytime in the Summer. The coldest temperature is typically limited by the frost point of CO2 [3]. Due to its thin atmosphere, surface temperatures on Mars can get much warmer than atmospheric temperatures, with estimated values from the Viking Orbiter Infrared Thermal Mapper of up to 27\u00b0C [19]. The",
+      "27 g/cm2 (16 lb/in2) of protection from harmful radiation [3], radiation at the surface remains a major concern. Three primary radiation sources must be considered: continuous solar radiation, intermittent Solar Proton Events (SPEs), and persistent Galactic Cosmic Rays (GCRs). Solar irradiance on Mars ranges from 493 W/m\u00b2 at the lowest elevations to 717 W/m2 at the highest elevations, with an average of about 589 W/m2. For comparison, Earth receives an average of 1367 W/m2. Ultraviolet exposure on Mars is significantly higher than on Earth; however, the CO2 atmosphere absorbs nearly all wavelengths shorter than 2000 \u00c5 before they reach the surface [25]. Solar Proton Events\u2014solar flares\u2014are infrequent and typically last only a few days. Because EVAs are not expected to occur during these events, spacesuit designs generally do not account for SPE exposure. Galactic Cosmic Rays, on the other hand, can contribute to Single Event Effects (SEE) and Total Ionizing Dose (TID). Specific radiation levels that need to be accommodated in a Mars spacesuit will be determined in future assessments. 5. Dust and Soil The composition of Martian soil is not fully characterized, but data from the Viking landers indicate a mix of fine- grained drift material, blocky fragments, and",
+      "International Conference on Environmental Systems 8 Figure 4. Elevation map of Mars with locations of hottest and coldest yearly surface temperatures at latitudes of -50, -25, 0, +25, and +50 and within a pressure maximum of 7 torr. Table 3. Surface and atmospheric temperatures for worst-case hot (WCH) and worst-case cold (WCC) locations on Mars at latitudes of -50, -25, 0, +25, and +50 and within a pressure maximum of 7 torr. Latitude Condition Longitude Surface Temp, K Atmospheric Temp, K Minimum Maximum Minimum Maximum -50 WCH -124 200 303 203 277 WCC -98 145 162 146 161 -25 WCH +108 187 312 193 279 WCC -116 148 236 152 222 0 WCH +60 178 303 183 271 WCC -108 144 265 146 237 +25 WCH +12 148 288 153 260 WCC -112 146 265 154 248 +50 WCH 70 191 275 195 256 WCC -100 148 177 151 175 4. Radiation While the CO2 atmosphere on Mars offers roughly 27 g/cm2 (16 lb/in2) of protection from harmful radiation [3], radiation at the surface remains a major concern. Three primary radiation sources must be considered: continuous solar radiation, intermittent Solar Proton Events (SPEs), and persistent Galactic Cosmic Rays (GCRs). Solar",
+      "identified at latitudes of -50, -25, 0, +25, and +50 using an assumed optical depth of 1.0 (moderately dusty atmosphere). Figure 4 shows an elevation map of Mars with red and blue markers indicating locations with the hottest and coldest yearly surface temperatures, respectively. Minimum and maximum surface and atmospheric temperatures associated with each location are provided in Table 3. The GCM search was limited to locations that would be realistic for EVAs, with atmospheric pressures no greater than 7 Torr. As expected, the coldest locations correspond with the highest elevation regions, while the hottest locations tend to align with lower elevation regions where the denser atmosphere retains more heat.",
+      "International Conference on Environmental Systems 7 Surface pressures on Mars can reach as low as 0.2 Torr or above 9 Torr, depending on location (elevation) and time of year. Elevations across the planet range from about -8 km to +21 km relative to the Mars datum. Aside from the Hellis Planitia impact basin (lowest location on Mars at 42.4\u00b0S 70.5\u00b0E), the Southern hemisphere is at a higher average elevation than the Northern hemisphere, resulting in lower pressures year-round. Large seasonal variations in pressure occur due to the condensation of carbon dioxide in the polar caps in the Winter and sublimation back to the gas phase in the Spring. Figure 3 illustrates pressure maps of Mars at times of the Martian year when the average global pressure is the lowest (typically during Northern Summer/Southern Winter) and highest (typically during Northern Autumn and Winter/Southern Spring and Summer) [18]. These maps were generated using data from the Jet Propulsion Laboratory (JPL) Mars Global Climate Model (GCM) with an assumed optical depth of 1.0 (moderately dusty atmosphere). Locations where EVAs can take place on Mars may be limited by the atmospheric conditions that selected PLSS technologies can operate within. For instance, use of SWME",
+      "the traverse track help map out subsurface structure and hydration state/ice content for the near-subsurface. Atmoshphere/Climate Scientific Objectives\u2014 In the human era of exploration, atmospheric measurements at all sites would be seen as important not only to understanding Mars\u2019 atmosphere and climate and to planning human surface operations, but also as an environmental characterization that is essential to the interpretation of many life and geology objectives. The trend towards system science called out in MEPAG [10] as a \u201cground-to-exosphere approach to monitoring the martian atmospheric structure and dynamics\u201d will continue with more emphasis on the mass, heat, and momentum fluxes between the three Mars climate components: atmosphere, cryosphere, and planetary surface. Understanding Mars\u2019 past climate will benefit from anticipated new knowledge of current atmospheric escape rates that will be gained from the 2013 Mars Aeronomy Scout. However, a significant advancement in the key area of access to the polar stratigraphic record is not expected in the decades before human exploration. In 2030, this will therefore remain one of the highest priorities for MEPAG. On the other hand, the study of the paleoclimatic parameters that are imprinted in the ancient geological record (e.g., Noachian to Amazonian periods) also concerns the high"
+    ],
+    "retrieved": [
+      {
+        "title": "Mars Portable Life Support System Status and Plan",
+        "page": 6,
+        "report_id": "20260003024"
+      },
+      {
+        "title": "Mars Portable Life Support System Status and Plan",
+        "page": 7,
+        "report_id": "20260003024"
+      },
+      {
+        "title": "Mars Portable Life Support System Status and Plan",
+        "page": 7,
+        "report_id": "20260003024"
+      },
+      {
+        "title": "Mars Portable Life Support System Status and Plan",
+        "page": 8,
+        "report_id": "20260003024"
+      },
+      {
+        "title": "Mars Portable Life Support System Status and Plan",
+        "page": 8,
+        "report_id": "20260003024"
+      },
+      {
+        "title": "Mars Portable Life Support System Status and Plan",
+        "page": 7,
+        "report_id": "20260003024"
+      },
+      {
+        "title": "Mars Portable Life Support System Status and Plan",
+        "page": 7,
+        "report_id": "20260003024"
+      },
+      {
+        "title": "Human Exploration of Mars Design Reference Architecture 5.0",
+        "page": 4,
+        "report_id": "20090040343"
+      }
+    ],
+    "cited": [],
+    "latency_seconds": 41.21,
+    "model": "gemini-3.5-flash-lite"
+  },
+  {
+    "id": 12,
+    "question": "What is the recipe for chocolate cake?",
+    "ground_truth": "",
+    "answerable": false,
+    "answer": "The reports do not contain enough information to answer this.",
+    "declined": true,
+    "contexts": [
+      "are now developing a launch system and crew capsule without a defined mission. The Constellation Program, going to the Moon, Mars, and beyond, showed that having a mission does not ensure all planned elements are developed. Limited funding put first things first. The Apollo-style launch system and crew capsule were well begun but little effort was spent on reaching the Moon and none on Mars. And the Moon preparations ignored the Mars requirement for high reliability life support (Green and Watson, 2008; Nejad et al., 2009; Jones, 2010) and cancelled the methane rocket intended for Mars ascent (NASA, T",
+      "! N87-17777 NATURAL RADIATION HAZARDS ON THE NANNED NARS NISSION .John R. I,etaw, Rein Silberberg, C.}t. Tsao E.G. Hulburt Center for Space Science Naval Research Laboratory Washington, DC ABSTRACT We consider the hazards of the natural radiation environment--cosmic rays and solar energetic particles--on a manned mission to Mars. These hazards are addressed in three different settings: (1) the flight to Mars where astronauts are shielded only by the spacecraft, (2) on the surface of Mars under an atmosphere of about 10 g/cm 2 carbon dioxide, and (3) under the surface of Mars where additional shielding would result. INTRODUCTION The manned mission to Mars is confronted with a high energy nuclear radiation exposure two orders of magnitude greater than that encountered on previous space missions. The dose rate is comparable to what Apollo astronauts received on Moon missions; however, the flight duration is expected to be about 3 years, or 100 times longer than the average 10 day Moon mission. Longer space flights, such as Skylab, are n__?t comparable to the Mars mission because they were not exposed to the full force of the radiation environment. A baseline dose equivalent rate for the Mars spaceflight is 43 rem/year. This is based",
+      "4 The focus of the evaluation is the acceptability scale, shown in Table 3. Acceptability ratings are what indicate if the functional volumes provided in the EHC are appropriate for human crews during Mars missions. Table 3. Acceptability Scale 4. MODEL WALKTHROUGH Lab Deck An overhead view of the Lab Deck is shown in Figure 3. This deck is the point of entry from docked spacecraft such as Orion, Gateway, Lunar Landers, and the Mars Ascent Vehicle. To the immediate left and right of the docking hatch from the perspective of an entering crew member are the Command and Control and Galley, respectively, shown in Figure 4. Moving in the direction of the Galley, Medical and Hygiene are the next areas, shown in Figure 5. The Waste Management Compartment is next to Hygiene but is not visible in this figure. Utilization and Work/Maintenance complete the deck layout, visible in Figure 6. There is a region of stowage beneath the Lab Deck. This can be barely seen in Figures 4 and 6 but is more evident in Figure 2. Figure 3. Lab Deck Figure 4. Galley, Docking Hatch, and Command and Control Figure 5. Lab Deck View of Hygiene and Medical",
+      "approach. The need for a very high level of maturity and confidence creates a formidable barrier to introducing novel solutions for our first missions into deep space. Nonetheless, it might be useful to deliberately develop possible alternate architectures and investigate innovative technologies as part of the planning for the DSLS. Upgrading ISS ECLSS and developing DSLS both start here and now with ISS ECLSS. They will share common elements but evolve in diverging directions. The relationship between improving the ISS and developing the DSLS depends on the commonality and the differences between ISS ECLSS and DSLS requirements. III. Life support requirements for ISS and deep space What are the life support requirements for future space missions, for deep space beyond the Earth-Moon system, for Mars? How do they differ from the life support requirements for the space station in LEO? The crew\u2019s basic",
+      "2 International Conference on Environmental Systems MPCV = MultiPurpose Crew Vehicle (formerly Orion) NASA = National Aeronautics and Space Administration OGA = Oxygen Generation Assembly OGS = Oxygen Generation System ORU = Orbital Replacement Unit Pr(LOC) = Probability of Loss of Crew RO = Reverse Osmosis SFWE = Static Feed Water Electrolysis SPWE = Solid Polymer Water Electrolysis SSF = Space Station Freedom TIMES = Thermoelectric Integrated Membrane Evaporation System TRL = Technology Readiness Level UPA = Urine Processor Assembly VCD = Vapor Compression Distillation WPA = Water Processor Assembly WRS = Water Recovery System I. Introduction HIS paper considers life support for deep space missions and Mars. What life support system is needed and how should it be developed? NASA has the goal of sending humans to Mars, but it does not have a specific Mars mission. However NASA is currently developing two major capabilities needed for the Mars mission, a heavy lift launch rocket and a reentry capsule. There are no current programs to develop other capabilities needed for Mars such as a deep space transit habitat, a Mars lander and ascent vehicle, or a Mars surface habitat. Both the transit and surface habitat must support the crew",
+      "mobility system would robotically connect the crewed lander to the pre-deployed surface power grid. After allowing at least three sols for crew adaptation to Mars gravity, the pressurized rover and science equipment would be off-loaded from the MDS and surface exploration begins. Due to limited rescue options and contingency equipment, crewed exploration around the landing zone for this first mission is perhaps a 20 km radius, though the crew may deploy robotic assets to explore farther. Crew will collect samples, take environmental readings, and conduct a host of experiments. This mission concept allocates about two metric tons of science equipment. To begin integrated stakeholder conversations about what could be accomplished during a short stay mission, a notional daily surface schedule of surface activities is outlined here. It must be emphasized that no decisions have been made and activities are likely to change as systems are refined, science objectives are better defined, and integrated operations analyses are completed. Sols 1-3 would be nominally reserved for crew re-adaptation to a gravity environment with no scheduled EVA activity, but there is one potential contingency situation that must be protected for: if robotic assets are unable to connect the crew lander to the surface",
+      "for four crew for three years. Overall Layout\u2014Average Acceptability: 4, Acceptable - Minor Improvements Desired Participants felt that the adjacencies were questionable, and it was unclear where equipment was reconfigurable. Others mentioned the lack of a safe haven and suggested multiple pressure vessels as a solution. Participants commented that some volumes are clearly represented while others are either not represented or unclear. They also felt that the stowage is not necessarily co-located near places of need and that both subsystem details and access to subsystems for repair was lacking. They noted that volume is tight in some areas (e.g. exercise), there are potentially awkward/difficult to use areas (odd shapes in crew quarters), and limited access in areas (e.g. science) - there is a lot of volume, but not necessarily for what a given crew member needs at a given time. They felt the greatest frustration is likely to be a lack of utilization volume for multiple crew to work at the same time, causing frustration and competition over work areas. They noted a severe lack of privacy except when in crew quarters, the waste compartment, or the hygiene compartment. Because working and social volumes overlap, they felt the social activities",
+      "1 DISTRIBUTION STATEMENT: Statement A: Approved for public release; distribution is unlimited. PROPULSION SYSTEM ARCHITECTURE REFUELING CAPABILITY ASSESSMENT FOR A MARS TRANSIT HABITAT CONCEPT Huu P. Trinh, Christopher G. Popp, Brad M. Addona NASA Marshall Space Flight Center, Huntsville, Alabama Charles W. Pierce \u2013 Jacobs Space Exploration Group, Huntsville, Alabama ABSTRACT A pressure-fed hypergolic bi-propellant system is the assumed propulsion approach for the Reaction Control System (RCS) used by the Mars Transit Habitat (TH), an architectural concept being traded within the NASA Moon to Mars architecture. The propellants under consideration are Monomethyl Hydrazine (MMH) and Mixed Oxides of Nitrogen with 3% Nitric Oxide (MON3), with helium pressurant. The RCS propulsion would provide the capability for the TH to be a free-flying vehicle, which is necessary to support its notional operation across the Moon to Mars architecture. The TH concept would dock/undock with other Moon to Mars architectural elements including Gateway, Orion, Logistics Modules, Mars Propulsion System and Mars Assent/Decent Systems. When docked at Gateway, the TH propulsion system may augment Gateway stack control to achieve the required slew rates. To be capable of supporting operations over a presumed 15-year vehicle life, the TH concept assumes a refueling capability for the"
+    ],
+    "retrieved": [
+      {
+        "title": "Life Support for Deep Space and Mars",
+        "page": 2,
+        "report_id": "20140011164"
+      },
+      {
+        "title": "Natural radiation hazards on the manned Mars mission",
+        "page": 1,
+        "report_id": "19870008344"
+      },
+      {
+        "title": "Functional Volume Assessment of an Early Version of the Mars Transit Habitat",
+        "page": 4,
+        "report_id": "20210022012"
+      },
+      {
+        "title": "Life Support for Deep Space and Mars",
+        "page": 6,
+        "report_id": "20140011164"
+      },
+      {
+        "title": "Life Support for Deep Space and Mars",
+        "page": 2,
+        "report_id": "20140011164"
+      },
+      {
+        "title": "NASA\u2019s Strategic Analysis Cycle 2021 (SAC21) Human Mars Architecture",
+        "page": 6,
+        "report_id": "20210026448"
+      },
+      {
+        "title": "Functional Volume Assessment of an Early Version of the Mars Transit Habitat",
+        "page": 7,
+        "report_id": "20210022012"
+      },
+      {
+        "title": "Propulsion System Architecture Refueling Capability Assessment for A Mars Transit Habitat Concept",
+        "page": 1,
+        "report_id": "20240003278"
+      }
+    ],
+    "cited": [],
+    "latency_seconds": 13.13,
+    "model": "gemini-3.5-flash-lite"
+  }
+]

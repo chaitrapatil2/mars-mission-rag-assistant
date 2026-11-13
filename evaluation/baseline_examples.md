@@ -54,3 +54,21 @@ Fix planned: hybrid retrieval and reranking (Step 9).
 
 \- Average latency: 4.26 s
 
+
+
+\## Results: baseline vs hybrid retrieval + reranker (12 questions)
+
+\- Decline accuracy: 3/3 -> 3/3
+
+\- False declines: 1/9 -> 0/9 (Q1 fixed)
+
+\- Citations present: 8/8 -> 9/9
+
+\- Average latency: 4.26 s -> 22.83 s (reranker runs on CPU)
+
+
+
+\## Citation spot check (Q1, v2)
+
+Answer cited a life-support report for "about 180 days". The cited chunk states a one-way travel time of 180-300 days, so the citation is valid, but the answer simplified the range.
+
