@@ -1,76 +1,76 @@
-\# 🚀 Mars Mission Research Assistant
+# 🚀 Mars Mission Research Assistant
 
 
 
-A Retrieval-Augmented Generation (RAG) assistant that answers questions about human missions to Mars using \*\*NASA technical reports\*\*. Every answer cites the exact report and page, and the system declines questions the reports cannot answer.
+A Retrieval-Augmented Generation (RAG) assistant that answers questions about human missions to Mars using **NASA technical reports**. Every answer cites the exact report and page, and the system declines questions the reports cannot answer.
 
 
 
-!\[Answer demo](docs/demo\_answer.png)
+![Answer demo](docs/demo_answer.png)
 
 
 
-\## What it does
+## What it does
 
 
 
-\- Searches 19 NASA NTRS reports (radiation, life support, spacecraft design, mission planning)
+- Searches 19 NASA NTRS reports (radiation, life support, spacecraft design, mission planning)
 
-\- Answers only from the retrieved passages, with numbered citations mapped to report title, page and NASA URL
+- Answers only from the retrieved passages, with numbered citations mapped to report title, page and NASA URL
 
-\- Declines off-topic questions instead of guessing
+- Declines off-topic questions instead of guessing
 
-\- Offers two retrieval modes: \*\*Fast\*\* (vector search) and \*\*Accurate\*\* (hybrid search + reranker)
-
-
-
-\## Architecture
+- Offers two retrieval modes: **Fast** (vector search) and **Accurate** (hybrid search + reranker)
 
 
 
-\*\*Ingestion (run once)\*\*
+## Architecture
+
+
+
+**Ingestion (run once)**
 
 ```
 
 NASA NTRS API -> PDFs -> text per page (PyMuPDF) -> 200-word overlapping chunks
 
-\-> embeddings (BAAI/bge-small-en-v1.5) -> ChromaDB + BM25 index
+-> embeddings (BAAI/bge-small-en-v1.5) -> ChromaDB + BM25 index
 
 ```
 
 
 
-\*\*Query (every question)\*\*
+**Query (every question)**
 
 ```
 
 Question -> embed -> vector search (top 20) + BM25 keyword search (top 20)
 
-\-> Reciprocal Rank Fusion -> cross-encoder reranker (bge-reranker-base) -> top 8 chunks
+-> Reciprocal Rank Fusion -> cross-encoder reranker (bge-reranker-base) -> top 8 chunks
 
-\-> Gemini (answer only from sources, cite \[n]) -> citation check in code -> answer + sources
+-> Gemini (answer only from sources, cite [n]) -> citation check in code -> answer + sources
 
 ```
 
 
 
-\## Tech stack
+## Tech stack
 
 
 
-Python · PyMuPDF · sentence-transformers · ChromaDB · rank\_bm25 · BGE reranker · Google Gemini · Flask · Streamlit
+Python · PyMuPDF · sentence-transformers · ChromaDB · rank_bm25 · BGE reranker · Google Gemini · Flask · Streamlit
 
 
 
-\## Data
+## Data
 
 
 
-19 public reports from the \[NASA Technical Reports Server](https://ntrs.nasa.gov), including \*Human Exploration of Mars Design Reference Architecture 5.0\*, \*Moon 2 Mars Space Radiation Protection\*, and the \*Mars Portable Life Support System\* studies. IDs and titles are in `data/reports\_metadata.json`. One report with no extractable text was dropped.
+19 public reports from the [NASA Technical Reports Server](https://ntrs.nasa.gov), including *Human Exploration of Mars Design Reference Architecture 5.0*, *Moon 2 Mars Space Radiation Protection*, and the *Mars Portable Life Support System* studies. IDs and titles are in `data/reports_metadata.json`. One report with no extractable text was dropped.
 
 
 
-\## Results
+## Results
 
 
 
@@ -79,70 +79,65 @@ Evaluated on 25 questions (18 answerable, 7 off-topic). 12 were hand-written and
 
 
 | Metric | Baseline (vector only) | Hybrid + reranker |
-
 |---|---|---|
-
 | Decline accuracy (off-topic) | 7/7 | 7/7 |
-
 | False declines (answerable) | 1/18 | 0/18 |
-
 | Answers with citations | 17/17 | 18/18 |
-
 | Average latency | 2.15 s | 14.93 s |
 
 
 
-\*\*Takeaway:\*\* hybrid retrieval and reranking fixed one retrieval miss (Q1) with no new failures, at roughly 7x the latency. The test set is small, so treat these as a baseline, not proof.
+**Takeaway:** hybrid retrieval and reranking fixed one retrieval miss (Q1) with no new failures, at roughly 7x the latency. The test set is small, so treat these as a baseline, not proof.
 
 
 
-\## Examples
+## Examples
 
 
 
-\*\*Worked.\*\* "What are the main health risks from space radiation?" returned cancer, cardiovascular, CNS and immune risks, citing three different reports.
+**Worked.** "What are the main health risks from space radiation?" returned cancer, cardiovascular, CNS and immune risks, citing three different reports.
 
 
 
-!\[Sources demo](docs/demo\_sources.png)
+![Sources demo](docs/demo_sources.png)
 
 
 
-\*\*Correct decline.\*\* "Who won the 2022 FIFA World Cup?" returned "The reports do not contain enough information to answer this."
+**Correct decline.** "Who won the 2022 FIFA World Cup?" returned "The reports do not contain enough information to answer this."
 
 
 
-!\[Decline demo](docs/demo\_decline.png)
+![Decline demo](docs/demo_decline.png)
 
 
 
-\*\*Failed, then fixed.\*\* "How long does a one-way trip to Mars take in the Design Reference Architecture 5.0?" was falsely declined by vector-only search. It retrieved the report's intro pages, not the pages with the trip duration. Hybrid retrieval and reranking fixed it.
+**Failed, then fixed.** "How long does a one-way trip to Mars take in the Design Reference Architecture 5.0?" was falsely declined by vector-only search. It retrieved the report's intro pages, not the pages with the trip duration. Hybrid retrieval and reranking fixed it.
 
 
 
-More in `evaluation/baseline\_examples.md`.
+More in `evaluation/baseline_examples.md`.
 
 
 
-\## Limitations
+## Limitations
 
 
 
-\- Reranking runs on CPU, so answers take about 10 to 30 s in accurate mode.
+- Reranking runs on CPU, so answers take about 10 to 30 s in accurate mode.
 
-\- Declining relies on the prompt, and retrieval still runs first. A score threshold didn't work because related off-topic questions scored high.
+- Declining relies on the prompt, and retrieval still runs first. A score threshold didn't work because related off-topic questions scored high.
 
-\- Citations are valid but sometimes broad, and the model may simplify a range (e.g. 180 to 300 days as "about 180").
+- Citations are valid but sometimes broad, and the model may simplify a range (e.g. 180 to 300 days as "about 180").
 
-\- Old scanned reports contain OCR errors, and near-duplicate reports can repeat the same page.
+- Old scanned reports contain OCR errors, and near-duplicate reports can repeat the same page.
 
-\- Small test set, and some questions are LLM-generated.
+- Small test set, and some questions are LLM-generated.
 
-\- Evaluation uses simple counting metrics. RAGAS (context precision, recall, faithfulness) is planned next.
+- Evaluation uses simple counting metrics. RAGAS (context precision, recall, faithfulness) is planned next.
 
 
 
-\## Run it
+## Run it
 
 
 
@@ -154,23 +149,23 @@ cd mars-mission-rag-assistant
 
 python -m venv venv
 
-venv\\Scripts\\activate
+venv\Scripts\activate
 
 pip install -r requirements.txt
 
 ```
 
-Create a `.env` file with `GEMINI\_API\_KEY=your\_key`, then rebuild the data (the PDFs and vector database are not stored in the repo):
+Create a `.env` file with `GEMINI_API_KEY=your_key`, then rebuild the data (the PDFs and vector database are not stored in the repo):
 
 ```bash
 
-python src/download\_reports.py
+python src/download_reports.py
 
-python src/extract\_text.py
+python src/extract_text.py
 
-python src/chunk\_text.py
+python src/chunk_text.py
 
-python src/build\_index.py
+python src/build_index.py
 
 ```
 
@@ -190,17 +185,17 @@ Evaluation:
 
 ```bash
 
-python src/run\_eval.py
+python src/run_eval.py
 
-python src/run\_eval\_v2.py
+python src/run_eval_v2.py
 
-python src/score\_basic.py evaluation/results\_v2.json
+python src/score_basic.py evaluation/results_v2.json
 
 ```
 
 
 
-\## Next steps
+## Next steps
 
 
 
